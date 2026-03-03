@@ -62,14 +62,29 @@ def clean_description(raw: str) -> str:
     raw = raw.replace("\r\n", "\n").replace("\r", "\n")
 
     # ---- HubSpot/HTML artifact normalization ----
-    # Fix cases like: "<mark>CE RÔLE EST POUR MOI</mark> SI JE SUIS ..."
-    # which often become two lines ("CE RÔLE EST POUR MOI" + "SI JE SUIS ...")
-    # or weird spacing after text extraction.
     raw = re.sub(r"</\s*mark\s*>", " ", raw, flags=re.IGNORECASE)
     raw = re.sub(r"<\s*mark[^>]*>", "", raw, flags=re.IGNORECASE)
 
     lines = []
     current_section = None
+
+    # Detect French vs English (once) so headers stay in the right language
+    # - French pages usually contain accents/FR headers, or /fr/ in the URL before scraping,
+    #   but here we only have the raw text, so detect by content.
+    FR_SIGNAL_RE = re.compile(
+        r"\b(description\s+du\s+poste|responsabilit[eé]s|exigences|ce\s+r[oô]le\s+est\s+pour\s+moi|si\s+je\s+suis)\b",
+        re.IGNORECASE
+    )
+    is_french = bool(FR_SIGNAL_RE.search(raw))
+
+    # Normalized output headers (language-aware)
+    HDR_DESC = "DESCRIPTION DU POSTE" if is_french else "JOB DESCRIPTION"
+    HDR_RESP = "RESPONSABILITÉS" if is_french else "RESPONSIBILITIES"
+    HDR_REQ  = "EXIGENCES" if is_french else "REQUIREMENTS"
+
+    # FIT headers (language-aware)
+    FIT_HDR_FR = "CE RÔLE EST POUR MOI SI JE SUIS..."
+    FIT_HDR_EN = "THIS ROLE IS FOR ME IF I AM..."
 
     # More tolerant matching (accent/no-accent, ROLE/JOB variants)
     FIT_FR_RE = re.compile(r"\bce\s+r[oô]le\s+est\s+pour\s+moi\b", re.IGNORECASE)
@@ -94,39 +109,37 @@ def clean_description(raw: str) -> str:
         if LOCATION_LINE_RE.match(s):
             continue
 
-        # Normalize section headers
-        if s.upper() in ["JOB DESCRIPTION", "DESCRIPTION DU POSTE"]:
+        # Normalize section headers (accept both FR/EN inputs, output in detected language)
+        if s.upper() in ["JOB DESCRIPTION", "DESCRIPTION DU POSTE", "DESCRIPTION DE POSTE"]:
             current_section = "description"
-            lines.append("\nJOB DESCRIPTION")
+            lines.append(f"\n{HDR_DESC}")
             continue
 
-        if s.upper() in ["RESPONSIBILITIES", "RESPONSABILITÉS"]:
+        if s.upper() in ["RESPONSIBILITIES", "RESPONSABILITÉS", "RESPONSABILITES"]:
             current_section = "responsibilities"
-            lines.append("\nRESPONSIBILITIES")
+            lines.append(f"\n{HDR_RESP}")
             continue
 
         if s.upper() in ["REQUIREMENTS", "EXIGENCES"]:
             current_section = "requirements"
-            lines.append("\nREQUIREMENTS")
+            lines.append(f"\n{HDR_REQ}")
             continue
 
         # --- FIT SECTION (force a new section, no bullets) ---
-        # French header (CE RÔLE EST POUR MOI...)
         if FIT_FR_RE.search(s):
             current_section = "fit"
-            lines.append("\nCE RÔLE EST POUR MOI SI JE SUIS...\n")
+            lines.append(f"\n{FIT_HDR_FR}\n")
             continue
 
-        # English header (THIS ROLE/JOB IS FOR ME...)
         if FIT_EN_RE.search(s):
             current_section = "fit"
-            lines.append("\nTHIS ROLE IS FOR ME IF I AM...\n")
+            lines.append(f"\n{FIT_HDR_EN}\n")
             continue
 
         # If we hit "SI JE SUIS" / "IF I AM" lines, treat as fit content (never bullet)
         if FIT_FR_IF_RE.match(s) or FIT_EN_IF_RE.match(s):
             current_section = "fit"
-            # Skip these lines (redundant) so you only keep the "... text to follow"
+            # Skip these lines (redundant)
             continue
 
         # Add bullets only to responsibilities & requirements
@@ -399,6 +412,7 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
 
 
 
