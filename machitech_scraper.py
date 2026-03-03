@@ -94,10 +94,16 @@ def clean_description(raw: str) -> str:
             lines.append("\nREQUIREMENTS")
             continue
 
-        # Normalize THIS ROLE section (English + French)
-        if "this role is for me" in low or "ce rôle est pour moi" in low:
+        # ENGLISH version
+        if "this role is for me if i am" in low:
             current_section = "fit"
-            lines.append("\nTHIS JOB IS FOR ME IF...\n")
+            lines.append("\nTHIS ROLE IS FOR ME IF I AM...\n")
+            continue
+
+        # FRENCH version
+        if "ce rôle est pour moi si je suis" in low:
+            current_section = "fit"
+            lines.append("\nCE RÔLE EST POUR MOI SI JE SUIS...\n")
             continue
 
         # Add bullets only to responsibilities & requirements
@@ -370,4 +376,5 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
 
