@@ -61,8 +61,23 @@ def clean_description(raw: str) -> str:
 
     raw = raw.replace("\r\n", "\n").replace("\r", "\n")
 
+    # ---- HubSpot/HTML artifact normalization ----
+    # Fix cases like: "<mark>CE RÔLE EST POUR MOI</mark> SI JE SUIS ..."
+    # which often become two lines ("CE RÔLE EST POUR MOI" + "SI JE SUIS ...")
+    # or weird spacing after text extraction.
+    raw = re.sub(r"</\s*mark\s*>", " ", raw, flags=re.IGNORECASE)
+    raw = re.sub(r"<\s*mark[^>]*>", "", raw, flags=re.IGNORECASE)
+
     lines = []
     current_section = None
+
+    # More tolerant matching (accent/no-accent, ROLE/JOB variants)
+    FIT_FR_RE = re.compile(r"\bce\s+r[oô]le\s+est\s+pour\s+moi\b", re.IGNORECASE)
+    FIT_EN_RE = re.compile(r"\bthis\s+(role|job)\s+is\s+for\s+me\b", re.IGNORECASE)
+
+    # Lines that should never be bulleted (they belong to the fit block)
+    FIT_FR_IF_RE = re.compile(r"^\s*si\s+je\s+suis\b", re.IGNORECASE)
+    FIT_EN_IF_RE = re.compile(r"^\s*if\s+i\s+am\b", re.IGNORECASE)
 
     for line in raw.split("\n"):
         s = line.strip()
@@ -75,6 +90,7 @@ def clean_description(raw: str) -> str:
         if any(p in low for p in REMOVE_PHRASES):
             continue
 
+        # Remove standalone location lines
         if LOCATION_LINE_RE.match(s):
             continue
 
@@ -94,16 +110,23 @@ def clean_description(raw: str) -> str:
             lines.append("\nREQUIREMENTS")
             continue
 
-        # ENGLISH version
-        if "this role is for me if i am" in low:
+        # --- FIT SECTION (force a new section, no bullets) ---
+        # French header (CE RÔLE EST POUR MOI...)
+        if FIT_FR_RE.search(s):
+            current_section = "fit"
+            lines.append("\nCE RÔLE EST POUR MOI SI JE SUIS...\n")
+            continue
+
+        # English header (THIS ROLE/JOB IS FOR ME...)
+        if FIT_EN_RE.search(s):
             current_section = "fit"
             lines.append("\nTHIS ROLE IS FOR ME IF I AM...\n")
             continue
 
-        # FRENCH version
-        if "ce rôle est pour moi si je suis" in low:
+        # If we hit "SI JE SUIS" / "IF I AM" lines, treat as fit content (never bullet)
+        if FIT_FR_IF_RE.match(s) or FIT_EN_IF_RE.match(s):
             current_section = "fit"
-            lines.append("\nCE RÔLE EST POUR MOI SI JE SUIS...\n")
+            # Skip these lines (redundant) so you only keep the "... text to follow"
             continue
 
         # Add bullets only to responsibilities & requirements
@@ -376,5 +399,6 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
 
 
