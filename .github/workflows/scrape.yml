@@ -1,4 +1,4 @@
-name: Machitech Scraper
+name: MScraper
 on:
   schedule:
     - cron: '0 3 * * *' # Runs at 3 AM daily
@@ -16,10 +16,10 @@ jobs:
       - name: Install dependencies
         run: pip install requests beautifulsoup4 lxml
       - name: Run Scraper
-        run: python machitech_scraper.py
+        run: python m_scraper.py
       - name: Commit and Push XML
         run: |
-          git config --global user.name 'MachitechBot'
+          git config --global user.name 'MBot'
           git config --global user.email 'bot@machitech.com'
           git add linkedin-jobs.xml
           git commit -m "Auto-update job feed"
