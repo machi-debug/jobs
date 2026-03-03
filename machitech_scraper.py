@@ -56,13 +56,14 @@ GARBAGE_LINE_RE = re.compile(
 
 
 def clean_description(raw: str) -> str:
-    """Normalize whitespace and strip junk from a scraped job description."""
     if not raw:
         return ""
 
     raw = raw.replace("\r\n", "\n").replace("\r", "\n")
 
-    out_lines: List[str] = []
+    lines = []
+    current_section = None
+
     for line in raw.split("\n"):
         s = line.strip()
         if not s:
@@ -70,28 +71,45 @@ def clean_description(raw: str) -> str:
 
         low = s.lower()
 
-        # Remove known social/apply phrases and garbage lines
+        # Remove junk
         if any(p in low for p in REMOVE_PHRASES):
             continue
-        if GARBAGE_LINE_RE.match(s):
-            continue
 
-        # Remove location lines inside description (we store location in dedicated tags)
         if LOCATION_LINE_RE.match(s):
             continue
 
-        # Remove super-short standalone "apply" noise
-        if low in {"apply", "apply now", "postuler", "postulez"}:
+        # Normalize section headers
+        if s.upper() in ["JOB DESCRIPTION", "DESCRIPTION DU POSTE"]:
+            current_section = "description"
+            lines.append("\nJOB DESCRIPTION")
             continue
 
-        out_lines.append(s)
+        if s.upper() in ["RESPONSIBILITIES", "RESPONSABILITÉS"]:
+            current_section = "responsibilities"
+            lines.append("\nRESPONSIBILITIES")
+            continue
 
-    text = "\n".join(out_lines)
+        if s.upper() in ["REQUIREMENTS", "EXIGENCES"]:
+            current_section = "requirements"
+            lines.append("\nREQUIREMENTS")
+            continue
 
-    # Collapse repeated spaces/tabs
+        # Normalize THIS ROLE section (English + French)
+        if "this role is for me" in low or "ce rôle est pour moi" in low:
+            current_section = "fit"
+            lines.append("\nTHIS JOB IS FOR ME IF...\n")
+            continue
+
+        # Add bullets only to responsibilities & requirements
+        if current_section in ["responsibilities", "requirements"]:
+            lines.append(f"- {s}")
+        else:
+            lines.append(s)
+
+    text = "\n".join(lines)
+
+    # Clean spacing
     text = re.sub(r"[ \t]+", " ", text)
-
-    # Collapse excessive blank lines
     text = re.sub(r"\n{3,}", "\n\n", text).strip()
 
     return text
@@ -352,3 +370,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
