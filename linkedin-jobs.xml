@@ -3,175 +3,37 @@
   <publisher><![CDATA[Machitech]]></publisher>
   <publisherurl><![CDATA[https://machitech.com]]></publisherurl>
   <job>
-    <title><![CDATA[Electromechanic]]></title>
-    <partnerJobId><![CDATA[electromechanic]]></partnerJobId>
-    <applyUrl><![CDATA[https://machitech.com/jobs/electromechanic]]></applyUrl>
+    <title><![CDATA[Welder]]></title>
+    <partnerJobId><![CDATA[welder]]></partnerJobId>
+    <applyUrl><![CDATA[https://machitech.com/jobs/welder]]></applyUrl>
     <company><![CDATA[Machitech]]></company>
-    <description><![CDATA[Electromechanic
+    <description><![CDATA[Welder
 
 JOB DESCRIPTION
-The Electromechanic at Machitech assembles complex machine components by interpreting both electrical and mechanical schematics to ensure precise integration. The role involves performing critical start-up tests, configuring machine software, and troubleshooting electrical or mechanical issues to maintain peak operational standards.
+The welder reads blueprints, prepares and assembles parts, selects and sets welding equipment, and performs high-quality welds. The role includes inspecting weld integrity, correcting defects, finishing welds, following safety standards, maintaining a clean workspace, and supporting production through accurate assembly, planning, and related fabrication duties, and complying with occupational health requirements.
 
 RESPONSIBILITIES
-- Assemble machine components using electrical and mechanical schematics
-- Perform start-up tests and machine configuration
-- May be required to troubleshoot and repair electrical and mechanical issues
-- Participate in product development
-- Perform any other related duties
-
-REQUIREMENTS
-- Experience or training in industrial electronics, electromechanics, or another related field
-- Experience in industrial maintenance or equipment installation (an asset)
-
-THIS ROLE IS FOR ME IF I AM...
-
-... a technical specialist who masters the intersection of electrical and mechanical systems to build and configure industrial machinery. I am a meticulous problem solver with strong manual dexterity who thrives on troubleshooting complex schematics and collaborating with the engineering team.]]></description>
-    <city><![CDATA[Livermore]]></city>
-    <state><![CDATA[KY]]></state>
-    <country><![CDATA[US]]></country>
-    <jobtype><![CDATA[FULL_TIME]]></jobtype>
-    <posterEmail><![CDATA[hr@machitech.com]]></posterEmail>
-  </job>
-  <job>
-    <title><![CDATA[Programmeur(euse) PLC / HMI]]></title>
-    <partnerJobId><![CDATA[programmeur-plc]]></partnerJobId>
-    <applyUrl><![CDATA[https://machitech.com/fr/emplois/programmeur-plc]]></applyUrl>
-    <company><![CDATA[Machitech]]></company>
-    <description><![CDATA[Programmeur(euse) PLC / HMI
-
-DESCRIPTION DU POSTE
-La personne occupant le poste de programmeur(euse) PLC / HMI conçoit, développe et met en œuvre des solutions d’automatisation à l’aide de la programmation PLC et HMI pour nos tables de découpe plasma et nos robots. Elle est responsable de l’intégration de nouvelles solutions impliquant des PLC, des systèmes de contrôle de mouvement, des ordinateurs industriels et d’autres dispositifs de contrôle, tout en optimisant les systèmes existants. Elle travaille en étroite collaboration avec les départements d’ingénierie et de service technique et participe à des ateliers de formation et de mentorat afin de développer davantage ses compétences en génie logiciel, mécanique et électrique.
-
-RESPONSABILITÉS
-- Programmer et maintenir les contrôleurs de machines industrielles selon des besoins spécifiques (R&D).
-- Concevoir et documenter des applications de contrôle.
-- Développer et exécuter des plans et des scripts de tests.
-- Programmer des applications d’automatisation.
-- Participer à la conception électrique.
-- Effectuer les tests fonctionnels et la mise en service.
-- Effectuer toute autre tâche connexe liée aux opérations d’automatisation et de robotique.
-- Dépanner et résoudre les problèmes d’application.
-- Estimer l’effort nécessaire pour développer des applications d’automatisation.
-- Rédiger des rapports sur les projets et les résultats.
-- Respecter les méthodes de conception et de réalisation des projets.
-- Participe au développement et à l’amélioration continue des projets de robotique de l’entreprise.
-- Collaborer avec les membres de l’équipe et effectuer des suivis.
-- S’entretenir les clients à distance ou en présentiel.
-
-EXIGENCES
-- Études collégiales en génie électrique, génie logiciel, électronique programmable et robotique ou autre formation jugée équivalente.
-- Maitrise de l’anglais de niveau intermédiaire/avancé.
-- Expérience en programmation d’automates programmables.
-- Expérience dans un domaine similaire (un atout).
-- Expérience dans l’intégration et l’évolution de nouveaux systèmes.
-- Expérience avec les systèmes d’exploitation temps réel et la programmation en environnements temps réel.
-- Connaissance des langages de programmation Structured Text, Function Block Diagram, Instruction List, C#.NET (un atout).
-- Intérêt marqué pour les systèmes de commande de mouvement (mouvement synchronisé, robotique, CNC), pour les applications PC et PLC et les systèmes mécaniques et électriques.
-- Excellentes connaissances en informatique général, dont la suite Office.
-- Maitrise de l’anglais de niveau intermédiaire/avancé**.
-- Permis de conduire valide.
-
-CE RÔLE EST POUR MOI SI JE SUIS...
-
-... un(e) expert(e) technique passionné par la R&D, la programmation et la mise en service de systèmes automatisés complexes. Je possède une solide capacité d'analyse pour résoudre des problèmes, collaborer avec l'équipe de robotique et assurer un service client d'exception, que ce soit à distance ou en présentiel.
-CLIQUEZ POUR APPLIQUER]]></description>
-    <city><![CDATA[St-Marc-des-Carrières]]></city>
-    <state><![CDATA[QC]]></state>
-    <country><![CDATA[CA]]></country>
-    <jobtype><![CDATA[FULL_TIME]]></jobtype>
-    <posterEmail><![CDATA[hr@machitech.com]]></posterEmail>
-  </job>
-  <job>
-    <title><![CDATA[Industrial Mechanic]]></title>
-    <partnerJobId><![CDATA[industrial-mechanic]]></partnerJobId>
-    <applyUrl><![CDATA[https://machitech.com/jobs/industrial-mechanic]]></applyUrl>
-    <company><![CDATA[Machitech]]></company>
-    <description><![CDATA[Industrial Mechanic
-
-JOB DESCRIPTION
-The Industrial Mechanic at Machitech assembles machine components based on mechanical drawings and performs start-up tests to ensure proper operation. The role includes troubleshooting, repairing, and testing mechanical and electrical systems on industrial cutting equipment while supporting continuous product improvement. This position requires strong mechanical aptitude, autonomy, attention to detail, and the ability to work effectively within a team.
-
-RESPONSIBILITIES
-- Assemble machine components using mechanical drawings
-- Perform start-up tests and machine configuration
-- Conduct operational tests, troubleshoot, and repair electrical and mechanical issues
-- Participate in product development
-- Perform any other related duties
-
-REQUIREMENTS
-- Experience and/or training in industrial mechanics
-- Experience in industrial maintenance or equipment installation (an asset)
-- Experience in electricity, industrial electronics, or equipment installation (an asset)
-
-THIS ROLE IS FOR ME IF I AM...
-
-... a person who combines high manual dexterity with the curiosity to master complex machine assembly.
-I am a meticulous, energetic team player who thrives on solving mechanical challenges with precision while ensuring every configuration meets our high standards for quality.]]></description>
-    <city><![CDATA[Livermore]]></city>
-    <state><![CDATA[KY]]></state>
-    <country><![CDATA[US]]></country>
-    <jobtype><![CDATA[FULL_TIME]]></jobtype>
-    <posterEmail><![CDATA[hr@machitech.com]]></posterEmail>
-  </job>
-  <job>
-    <title><![CDATA[Électromécanicien(ne)]]></title>
-    <partnerJobId><![CDATA[electromecanicien]]></partnerJobId>
-    <applyUrl><![CDATA[https://machitech.com/fr/emplois/electromecanicien]]></applyUrl>
-    <company><![CDATA[Machitech]]></company>
-    <description><![CDATA[Électromécanicien(ne)
-
-DESCRIPTION DU POSTE
-La personne occupant le poste d'électromécanicien(ne) assemble des composants de machines complexes en interprétant les schémas électriques et mécaniques pour assurer une intégration précise. Le rôle consiste à effectuer des tests de démarrage critiques, à configurer les logiciels des machines et à diagnostiquer les problèmes électriques ou mécaniques pour maintenir les standards opérationnels les plus élevés.
-
-RESPONSABILITÉS
-- Assembler les composants de machines à l'aide de schémas électriques et mécaniques
-- Effectuer les tests de démarrage et la configuration des machines
-- Peut être appelé à diagnostiquer et réparer des problèmes électriques et mécaniques
-- Participer au développement de produits
-- Effectuer toute autre tâche connexe
-
-EXIGENCES
-- Expérience ou formation en électronique industrielle, en électromécanique ou dans un autre domaine connexe
-- Expérience en maintenance industrielle ou en installation d'équipements (un atout)
-
-CE RÔLE EST POUR MOI SI JE SUIS...
-
-... un(e) spécialiste technique qui maîtrise l'intersection des systèmes électriques et mécaniques pour construire et configurer des machines industrielles. Je suis un(e) solutionneur(euse) de problèmes méticuleux, doté(e) d'une grande dextérité manuelle, qui adore diagnostiquer des schémas complexes et collaborer avec l'équipe d'ingénierie.]]></description>
-    <city><![CDATA[St-Marc-des-Carrières]]></city>
-    <state><![CDATA[QC]]></state>
-    <country><![CDATA[CA]]></country>
-    <jobtype><![CDATA[FULL_TIME]]></jobtype>
-    <posterEmail><![CDATA[hr@machitech.com]]></posterEmail>
-  </job>
-  <job>
-    <title><![CDATA[Industrial Painter]]></title>
-    <partnerJobId><![CDATA[industrial-painter]]></partnerJobId>
-    <applyUrl><![CDATA[https://machitech.com/jobs/industrial-painter]]></applyUrl>
-    <company><![CDATA[Machitech]]></company>
-    <description><![CDATA[Industrial Painter
-
-JOB DESCRIPTION
-The Industrial Painter at Machitech ensures the aesthetic and protective finish of our machines by preparing and applying paint with precision. The role involves surface preparation through sanding or degreasing, handling heavy parts using lifting equipment, and rigorously maintaining spray equipment to guarantee consistent quality.
-
-RESPONSIBILITIES
+- Read and interpret welding blueprints or instructions
+- Check the dimensions and conformity of parts before assembly and welding work
+- Clean and polish parts to be welded if necessary
+- Plan the sequence of part assembly
+- Adjust, assemble, and secure structures using bolts, clamps, spot welding, or other methods
+- Select and set up welding equipment (gas)
+- Weld, brush, grind, and polish welding excesses
+- Inspect the quality and penetration of welds and make corrections if necessary
+- Apply occupational health and safety rules
 - Maintain a clean, organized, and safe work environment
-- Prepare and mix paint
-- Manuever parts using a forklift or overhead crane
-- Prepare surfaces for painting (cleaning, sanding, and occasionally stripping or degreasing)
-- Paint parts and perform touch-ups as needed
-- Maintain inventory of materials and equipment
-- Clean accessories and equipment using solvents
-- Comply with health and safety regulations
-- Perform all other related duties
+- Perform any other related duties
 
 REQUIREMENTS
-- High school diploma or equivalent
-- Training in industrial painting, surface treatment, bodywork, or construction painting (an asset)
-- Relevant work experience in industrial painting (2 to 3 years)
+- Training or experience in MIG steel welding
+- Experience in an industrial environment (an asset)
+- Being able to weld in all positions
+- Comfortable wearing personal protective equipment
 
 THIS ROLE IS FOR ME IF I AM...
 
-...  if I have mastered industrial paint mixing and application techniques while being capable of maneuvering parts with a forklift or overhead crane. I am an autonomous and meticulous person who takes great satisfaction in impeccable finishing work performed in strict compliance with safety standards.]]></description>
+... a meticulous and versatile professional who takes immense pride in the quality and precision of every weld. I am a resourceful team player who manages priorities with total autonomy, ensuring that our production moving at the speed and rigor our projects demand.]]></description>
     <city><![CDATA[Livermore]]></city>
     <state><![CDATA[KY]]></state>
     <country><![CDATA[US]]></country>
@@ -179,38 +41,80 @@ THIS ROLE IS FOR ME IF I AM...
     <posterEmail><![CDATA[hr@machitech.com]]></posterEmail>
   </job>
   <job>
-    <title><![CDATA[Press Brake Field Technician]]></title>
-    <partnerJobId><![CDATA[press-brake-field-technician]]></partnerJobId>
-    <applyUrl><![CDATA[https://machitech.com/jobs/press-brake-field-technician]]></applyUrl>
+    <title><![CDATA[Adjoint(e) Administratif(ve) Bilingue]]></title>
+    <partnerJobId><![CDATA[adjoint-administratif-bilingue]]></partnerJobId>
+    <applyUrl><![CDATA[https://machitech.com/fr/emplois/adjoint-administratif-bilingue]]></applyUrl>
     <company><![CDATA[Machitech]]></company>
-    <description><![CDATA[Press Brake Field Technician
+    <description><![CDATA[Adjoint(e) Administratif(ve) Bilingue
 
-JOB DESCRIPTION
-The Press Brake Field Technician performs start-up and functional testing, and troubleshoots electrical and mechanical issues. The role includes installing press brakes across Canada and/or the United States, providing operator training, responding to service calls, delivering on-site technical support, and completing related service and maintenance tasks.
+DESCRIPTION DU POSTE
+Sous la supervision de la Responsable des opérations techniques et en étroite collaboration avec les membres de l’équipe et les clients, l’adjoint(e) administratif(ve) coordonne la planification des installations afin de respecter les échéanciers fixés, maintient à jour les dossiers des clients et effectue tous les suivis administratifs s’y rattachant.
 
-RESPONSIBILITIES
-- Assemble machine components using electrical and mechanical drawings
-- Perform start-up testing and machine configuration
-- Carry out functional tests, diagnose issues, and repair electrical and mechanical problems
-- Install press brakes primarily in Canada and the United States
-- Provide training to operators on installed equipment
-- Respond to service calls
-- Deliver on-site field service support
-- Perform any other related duties
+RESPONSABILITÉS
+- Créer les dossiers des clients et maintenir à jour les données et les garanties offertes
+- Créer les soumissions et les commandes clients
+- Rechercher des pièces dans Genius
+- Effectuer des demandes de retour de matériel
+- Veiller à ce que les travaux qui doivent être effectués par le client soient réalisés afin qu’ils soient prêts pour la livraison et maintenir à jour l’échéancier
+- Coordonner les livraisons des différents matériels et équipements avec les clients
+- Effectuer les suivis administratifs avec les techniciens de service
+- Insérer les rapports des techniciens concernant les installations, les mises en routes, les maintenances et les réparations effectués dans les dossiers des clients
+- Maintenir à jour le planificateur et voir à communiquer l’information entre chaque département (clients, achats, production, ingénierie et service technique
+- Effectuer les fermetures de commandes et assurer le suivi pour la facturation
+- Numériser et classer différents documents administratifs
+- Contribuer à l’amélioration continue des processus et des outils administratifs
+- Soutenir la Responsable des opérations techniques dans diverses tâches administratives.
 
-REQUIREMENTS
-- Experience and/or training in industrial electronics or electromechanics
-- Experience in industrial maintenance or equipment installation (an asset)
-- Intermediate-level English (required)
-- Available to travel within Canada and the United States (vehicle provided)
-- Valid passport and driver’s license (required)
+EXIGENCES
+- Diplôme d’études collégiales ou universitaires en administration, bureautique ou domaine connexe
+- Expérience minimale de 5 ans dans un rôle administratif, idéalement en environnement industriel ou technique
+- Aisance avec les outils informatiques (ERP, Suite office 365)
+- Excellentes habiletés de communication en français, tant à l’oral qu’à l’écrit et connaissance professionnel de l’anglais. La connaissance de l’anglais est requise considérant les échanges avec différentes parties prenantes au Canada et aux États-Unis
+- Rigueur, souci du détail et excellent sens de l’organisation
+- Capacité à gérer plusieurs dossiers simultanément
+- Autonomie et sens des priorités.
 
-THIS ROLE IS FOR ME IF I AM...
+CE RÔLE EST POUR MOI SI JE SUIS...
 
-... passionate about mastering press brakes and the technology behind them. I take pride in solving complex problems and traveling wherever the job takes me to ensure every machine performs with the speed, accuracy, and reliability customers expect.]]></description>
-    <city><![CDATA[Livermore]]></city>
-    <state><![CDATA[KY]]></state>
-    <country><![CDATA[US]]></country>
+... une personne qui carbure à l’organisation rigoureuse des dossiers clients et à l'optimisation des suivis opérationnels. Je suis un(e) collaborateur(trice) bilingue et autonome qui maîtrise les environnements ERP et la suite Office 365, et je retire une grande fierté à coordonner efficacement les livraisons tout en assurant une communication fluide entre les clients et les équipes techniques.]]></description>
+    <city><![CDATA[St-Marc-des-Carrières]]></city>
+    <state><![CDATA[QC]]></state>
+    <country><![CDATA[CA]]></country>
+    <jobtype><![CDATA[FULL_TIME]]></jobtype>
+    <posterEmail><![CDATA[hr@machitech.com]]></posterEmail>
+  </job>
+  <job>
+    <title><![CDATA[Peintre industriel (soir)]]></title>
+    <partnerJobId><![CDATA[peintre-industriel-soir]]></partnerJobId>
+    <applyUrl><![CDATA[https://machitech.com/fr/emplois/peintre-industriel-soir]]></applyUrl>
+    <company><![CDATA[Machitech]]></company>
+    <description><![CDATA[Peintre industriel (soir)
+
+DESCRIPTION DU POSTE
+La personne occupant le poste de peintre industriel de soir chez Machitech assure la finition esthétique et protectrice de nos machines en préparant et en appliquant la peinture avec précision. Le rôle consiste à préparer les surfaces par le sablage ou le dégraissage, à manipuler les pièces lourdes à l'aide d'équipements de levage et à entretenir rigoureusement le matériel de pulvérisation pour garantir une qualité constante.
+
+RESPONSABILITÉS
+- Maintenir un environnement de travail propre, ordonné et sécuritaire
+- Préparer et mélanger la peinture
+- Manœuvrer les pièces avec le chariot élévateur ou le pont roulant
+- Préparer les surfaces à peindre (nettoyer, sabler et parfois décaper ou dégraisser)
+- Peindre les pièces et faire des retouches au besoin
+- Effectuer l'inventaire du matériel et des équipements
+- Nettoyer à l'aide de solvant les accessoires et équipements
+- Respecter les consignes en matière de santé et sécurité
+- Effectuer toutes autres tâches connexes
+
+EXIGENCES
+- Diplôme d'études secondaires ou équivalence
+- Formation en peinture en bâtiment, en carrosserie, en traitement de surface ou en peinture industrielle (un atout)
+- Expérience de travail pertinente en peinture industrielle (2 à 3 ans)
+
+CE RÔLE EST POUR MOI SI JE SUIS...
+
+... si je maîtrise les techniques de mélange et d'application de peinture industrielle tout en étant capable de manœuvrer des pièces avec un chariot élévateur ou un pont roulant. Je suis une personne autonome et méticuleuse qui retire une grande satisfaction d'un travail de finition impeccable réalisé dans le respect strict des normes de sécurité.]]></description>
+    <city><![CDATA[St-Marc-des-Carrières]]></city>
+    <state><![CDATA[QC]]></state>
+    <country><![CDATA[CA]]></country>
     <jobtype><![CDATA[FULL_TIME]]></jobtype>
     <posterEmail><![CDATA[hr@machitech.com]]></posterEmail>
   </job>
@@ -291,130 +195,20 @@ CE RÔLE EST POUR MOI SI JE SUIS...
     <posterEmail><![CDATA[hr@machitech.com]]></posterEmail>
   </job>
   <job>
-    <title><![CDATA[Robotics Field Technician]]></title>
-    <partnerJobId><![CDATA[robotics-field-technician]]></partnerJobId>
-    <applyUrl><![CDATA[https://machitech.com/jobs/robotics-field-technician]]></applyUrl>
+    <title><![CDATA[Laser Field Technician]]></title>
+    <partnerJobId><![CDATA[laser-field-technician]]></partnerJobId>
+    <applyUrl><![CDATA[https://machitech.com/jobs/laser-field-technician]]></applyUrl>
     <company><![CDATA[Machitech]]></company>
-    <description><![CDATA[Robotics Field Technician
+    <description><![CDATA[Laser Field Technician
 
 JOB DESCRIPTION
-The Robotics Field Technician performs start-up and functional testing, and troubleshoots electrical and mechanical issues. The role includes installing robotic plasma cutting systems across Canada and/or the United States, providing operator training, responding to service calls, delivering on-site technical support, and completing related service and maintenance tasks.
+The Laser Field Technician performs start-up and functional testing, and troubleshoots electrical and mechanical issues. The role includes installing cutting machines across Canada and/or the United States, providing operator training, responding to service calls, delivering on-site technical support, and completing related service and maintenance tasks.
 
 RESPONSIBILITIES
 - Assemble machine components using electrical and mechanical drawings
 - Perform start-up testing and machine configuration
 - Carry out functional tests, diagnose issues, and repair electrical and mechanical problems
-- Install robotic cutting systems primarily in Canada and the United States
-- Provide training to operators on installed equipment
-- Respond to service calls
-- Deliver on-site field service support
-- Perform any other related duties
-
-REQUIREMENTS
-- Experience and/or training in industrial electronics or electromechanics
-- Experience in industrial maintenance or equipment installation (an asset)
-- Experience with Fanuc or other robots (an asset)
-- Intermediate-level English (required)
-- Available to travel within Canada and the United States (vehicle provided)
-- Valid passport and driver’s license (required)
-
-THIS ROLE IS FOR ME IF I AM...
-
-... passionate about mastering robotic cutting systems and the technology behind them. I take pride in solving complex problems and traveling wherever the job takes me to ensure every machine performs with the speed, accuracy, and reliability customers expect.]]></description>
-    <city><![CDATA[Livermore]]></city>
-    <state><![CDATA[KY]]></state>
-    <country><![CDATA[US]]></country>
-    <jobtype><![CDATA[FULL_TIME]]></jobtype>
-    <posterEmail><![CDATA[hr@machitech.com]]></posterEmail>
-  </job>
-  <job>
-    <title><![CDATA[Technicien(ne) plasma]]></title>
-    <partnerJobId><![CDATA[technicien-plasma]]></partnerJobId>
-    <applyUrl><![CDATA[https://machitech.com/fr/emplois/technicien-plasma]]></applyUrl>
-    <company><![CDATA[Machitech]]></company>
-    <description><![CDATA[Technicien(ne) plasma
-
-DESCRIPTION DU POSTE
-La personne occupant le poste de technicien(ne) de service pour systèmes de découpe au plasma effectue le démarrage et les tests fonctionnels, en plus de diagnostiquer les problèmes électriques et mécaniques. Le rôle consiste à installer des systèmes de coupe au plasma partout au Canada et/ou aux États-Unis, à former les opérateurs, à répondre aux appels de service, à fournir un soutien technique sur place et à accomplir les tâches de service et de maintenance connexes.
-
-RESPONSABILITÉS
-- Effectuer toutes les étapes de fabrication en usine conformément aux procédures établies.
-- Installer les nouveaux équipements chez les clients.
-- Effectuer la maintenance préventive des machines.
-- Diagnostiquer et réparer les équipements sur les sites clients.
-- Ajuster et opérer les machines selon les exigences de production.
-- Former les opérateurs d’équipement.
-- Compléter et soumettre les rapports de service ainsi que toute la documentation administrative requise (achats, paie, remboursements, etc.).
-- Effectuer toute autre tâche connexe selon les besoins.
-
-EXIGENCES
-- Diplôme en électromécanique ou expérience équivalente.
-- Expérience en maintenance industrielle ou en installation d’équipements (un atout).
-- Solides connaissances en mécanique, électricité et hydraulique.
-- Connaissances de base de la suite Microsoft Office.
-- Permis de conduire valide.
-- Passeport valide.
-
-CE RÔLE EST POUR MOI SI JE SUIS...
-
-... passionné(e) par la maîtrise des systèmes de découpe au plasma et de leur technologie. Je tire une grande fierté à résoudre des problèmes complexes et à voyager partout où le travail m'appelle pour m'assurer que chaque machine performe avec la vitesse, la précision et la fiabilité que les clients attendent.
-CLIQUEZ POUR APPLIQUER]]></description>
-    <city><![CDATA[St-Marc-des-Carrières]]></city>
-    <state><![CDATA[QC]]></state>
-    <country><![CDATA[CA]]></country>
-    <jobtype><![CDATA[FULL_TIME]]></jobtype>
-    <posterEmail><![CDATA[hr@machitech.com]]></posterEmail>
-  </job>
-  <job>
-    <title><![CDATA[Peintre industriel (soir)]]></title>
-    <partnerJobId><![CDATA[peintre-industriel-soir]]></partnerJobId>
-    <applyUrl><![CDATA[https://machitech.com/fr/emplois/peintre-industriel-soir]]></applyUrl>
-    <company><![CDATA[Machitech]]></company>
-    <description><![CDATA[Peintre industriel (soir)
-
-DESCRIPTION DU POSTE
-La personne occupant le poste de peintre industriel de soir chez Machitech assure la finition esthétique et protectrice de nos machines en préparant et en appliquant la peinture avec précision. Le rôle consiste à préparer les surfaces par le sablage ou le dégraissage, à manipuler les pièces lourdes à l'aide d'équipements de levage et à entretenir rigoureusement le matériel de pulvérisation pour garantir une qualité constante.
-
-RESPONSABILITÉS
-- Maintenir un environnement de travail propre, ordonné et sécuritaire
-- Préparer et mélanger la peinture
-- Manœuvrer les pièces avec le chariot élévateur ou le pont roulant
-- Préparer les surfaces à peindre (nettoyer, sabler et parfois décaper ou dégraisser)
-- Peindre les pièces et faire des retouches au besoin
-- Effectuer l'inventaire du matériel et des équipements
-- Nettoyer à l'aide de solvant les accessoires et équipements
-- Respecter les consignes en matière de santé et sécurité
-- Effectuer toutes autres tâches connexes
-
-EXIGENCES
-- Diplôme d'études secondaires ou équivalence
-- Formation en peinture en bâtiment, en carrosserie, en traitement de surface ou en peinture industrielle (un atout)
-- Expérience de travail pertinente en peinture industrielle (2 à 3 ans)
-
-CE RÔLE EST POUR MOI SI JE SUIS...
-
-... si je maîtrise les techniques de mélange et d'application de peinture industrielle tout en étant capable de manœuvrer des pièces avec un chariot élévateur ou un pont roulant. Je suis une personne autonome et méticuleuse qui retire une grande satisfaction d'un travail de finition impeccable réalisé dans le respect strict des normes de sécurité.]]></description>
-    <city><![CDATA[St-Marc-des-Carrières]]></city>
-    <state><![CDATA[QC]]></state>
-    <country><![CDATA[CA]]></country>
-    <jobtype><![CDATA[FULL_TIME]]></jobtype>
-    <posterEmail><![CDATA[hr@machitech.com]]></posterEmail>
-  </job>
-  <job>
-    <title><![CDATA[Plasma Field Technician]]></title>
-    <partnerJobId><![CDATA[plasma-field-technician]]></partnerJobId>
-    <applyUrl><![CDATA[https://machitech.com/jobs/plasma-field-technician]]></applyUrl>
-    <company><![CDATA[Machitech]]></company>
-    <description><![CDATA[Plasma Field Technician
-
-JOB DESCRIPTION
-The Plasma Field Technician performs start-up and functional testing, and troubleshoots electrical and mechanical issues. The role includes installing plasma cutting systems across Canada and/or the United States, providing operator training, responding to service calls, delivering on-site technical support, and completing related service and maintenance tasks.
-
-RESPONSIBILITIES
-- Assemble machine components using electrical and mechanical drawings
-- Perform start-up testing and machine configuration
-- Carry out functional tests, diagnose issues, and repair electrical and mechanical problems
-- Install plasma cutting systems primarily in Canada and the United States
+- Install laser systems primarily in Canada and the United States
 - Provide training to operators on installed equipment
 - Respond to service calls
 - Deliver on-site field service support
@@ -429,130 +223,10 @@ REQUIREMENTS
 
 THIS ROLE IS FOR ME IF I AM...
 
-... passionate about mastering plasma cutting systems and the technology behind them. I take pride in solving complex problems and traveling wherever the job takes me to ensure every machine performs with the speed, accuracy, and reliability customers expect.]]></description>
+... passionate about mastering advanced fiber laser cutting systems and the technology behind them. I take pride in solving complex problems and traveling wherever the job takes me to ensure every machine performs with the speed, accuracy, and reliability customers expect.]]></description>
     <city><![CDATA[Livermore]]></city>
     <state><![CDATA[KY]]></state>
     <country><![CDATA[US]]></country>
-    <jobtype><![CDATA[FULL_TIME]]></jobtype>
-    <posterEmail><![CDATA[hr@machitech.com]]></posterEmail>
-  </job>
-  <job>
-    <title><![CDATA[Programmeur(euse) analyste]]></title>
-    <partnerJobId><![CDATA[programmeur-analyste]]></partnerJobId>
-    <applyUrl><![CDATA[https://machitech.com/fr/emplois/programmeur-analyste]]></applyUrl>
-    <company><![CDATA[Machitech]]></company>
-    <description><![CDATA[Programmeur(euse) analyste
-
-DESCRIPTION DU POSTE
-La personne occupant le poste de programmeur(euse) analyste chez Machitech développe et perfectionne des applications robustes en C#.net tout en collaborant avec l’équipe pour intégrer des fonctionnalités innovantes. Son rôle consiste à optimiser les bases de données MS SQL Server, à assurer la stabilité des logiciels par des tests rigoureux et à évoluer dans un environnement Agile pour garantir des standards de performance et de fiabilité élevés.
-
-RESPONSABILITÉS
-- Développer et perfectionner des applications en C#.net.
-- Utiliser les meilleures techniques de programmation pour assurer un environnement stable et performant.
-- Collaborer avec l’équipe pour améliorer nos logiciels et intégrer de nouvelles fonctionnalités.
-- Gérer et optimiser les bases de données sous MS SQL Server.
-- Utiliser Git pour le versionnement du code.
-- Effectuer des tests, optimiser et déboguer les applications afin d’en garantir la fiabilité et l’efficacité.
-- Contribuer au développement et à l’optimisation des interfaces utilisateurs.
-- Travailler selon les principes Agile pour une gestion efficace des projets.
-- Respecter les standards, normes et procédures en vigueur pour assurer la qualité des logiciels et services informatiques.
-- Effectuer toute autre tâche en lien avec le poste.
-
-EXIGENCES
-- Études en informatique, en programmation ou en génie logiciel
-- Expérience dans un poste similaire (un atout ).
-- Maîtriser les langages de programmation C#.NET et Python.
-- Capable de créer des interfaces WPF ou Windows form.
-- Connaissance des systèmes de contrôle pour équipements CNC / robotique (un atout).
-- Connaître les bases de données et leurs systèmes de gestion (My SQL).
-- Expérience avec d’autres technologies front-end/back-end.
-- Connaissance des architectures logicielles.
-- Expérience en développement Agile
-- Connaissance des normes et standards de développement.
-
-CE RÔLE EST POUR MOI SI JE SUIS...
-
-... un(e) passionné(e) de programmation C#.net qui carbure à la résolution de problèmes complexes et à l'optimisation de bases de données. Je suis un(e) collaborateur(trice) rigoureux(euse) qui maîtrise les environnements Agile et Git, et je retire une grande fierté à livrer un code propre, performant et parfaitement adapté aux besoins des utilisateurs.]]></description>
-    <city><![CDATA[St-Marc-des-Carrières]]></city>
-    <state><![CDATA[QC]]></state>
-    <country><![CDATA[CA]]></country>
-    <jobtype><![CDATA[FULL_TIME]]></jobtype>
-    <posterEmail><![CDATA[hr@machitech.com]]></posterEmail>
-  </job>
-  <job>
-    <title><![CDATA[Technicien(ne) presses plieuses]]></title>
-    <partnerJobId><![CDATA[technicien-presses-plieuses]]></partnerJobId>
-    <applyUrl><![CDATA[https://machitech.com/fr/emplois/technicien-presses-plieuses]]></applyUrl>
-    <company><![CDATA[Machitech]]></company>
-    <description><![CDATA[Technicien(ne) presses plieuses
-
-DESCRIPTION DU POSTE
-La personne occupant le poste de technicien(ne) presses plieuses assemble, installe et effectue l’entretien des presses plieuses. Le rôle comprend le diagnostic, les ajustements, la maintenance préventive, la formation des opérateurs et le soutien technique chez les clients. Elle travaille à l’usine et sur les sites clients, assurant la performance des équipements, la documentation de service et le soutien aux opérations de production et de service.
-
-RESPONSABILITÉS
-- Effectuer toutes les étapes de fabrication en usine conformément aux procédures établies.
-- Installer les nouveaux équipements chez les clients.
-- Effectuer la maintenance préventive des machines.
-- Diagnostiquer et réparer les équipements sur les sites clients.
-- Ajuster et opérer les machines selon les exigences de production.
-- Former les opérateurs d’équipement.
-- Compléter et soumettre les rapports de service ainsi que toute la documentation administrative requise (achats, paie, remboursements, etc.).
-- Effectuer toute autre tâche connexe selon les besoins.
-
-EXIGENCES
-- Diplôme en électromécanique ou expérience équivalente.
-- Expérience comme opérateur/régleur de presse plieuse (un atout).
-- Expérience en programmation et en opération d’un contrôleur Delem (un atout).
-- Expérience en maintenance industrielle ou en installation d’équipements (un atout).
-- Solides connaissances en mécanique, électricité et hydraulique.
-- Connaissances de base de la suite Microsoft Office.
-- Permis de conduire valide.
-- Passeport valide.
-
-CE RÔLE EST POUR MOI SI JE SUIS...
-
-... passionné(e) par la maîtrise des presses plieuses et de la technologie qui les propulse. Je tire une grande fierté à résoudre des problèmes complexes et à voyager partout où le travail m'appelle pour m'assurer que chaque machine performe avec la vitesse, la précision et la fiabilité que les clients attendent.
-CLIQUEZ POUR APPLIQUER]]></description>
-    <city><![CDATA[St-Marc-des-Carrières]]></city>
-    <state><![CDATA[QC]]></state>
-    <country><![CDATA[CA]]></country>
-    <jobtype><![CDATA[FULL_TIME]]></jobtype>
-    <posterEmail><![CDATA[hr@machitech.com]]></posterEmail>
-  </job>
-  <job>
-    <title><![CDATA[Manoeuvre]]></title>
-    <partnerJobId><![CDATA[manoeuvre]]></partnerJobId>
-    <applyUrl><![CDATA[https://machitech.com/fr/emplois/manoeuvre]]></applyUrl>
-    <company><![CDATA[Machitech]]></company>
-    <description><![CDATA[Manoeuvre
-
-DESCRIPTION DU POSTE
-La personne occupant le poste de manoeuvre assure la fluidité de la production et de la logistique en manipulant divers outils de transformation et en opérant des équipements de levage. Le rôle consiste à préparer les commandes, à gérer la réception et l'expédition de la marchandise ainsi qu'à maintenir un environnement de travail sécuritaire et ordonné pour garantir l'efficacité des opérations quotidiennes.
-
-RESPONSABILITÉS
-- Maintenir un environnement de travail propre, ordonné et sécuritaire
-- Manipuler divers outils de transformation (scier, couper, percer, etc.)
-- Aider à la réception et l’expédition de marchandise
-- Préparer les commandes et remplir la documentation associée
-- Effectuer la rotation de la marchandise
-- Aider aux chargements et aux déchargements des transporteurs
-- Déplacer du matériel à l’aide d’un chariot élévateur et d’un pont roulant
-- Déneiger les entrées durant la saison hivernale
-- Respecter les consignes en matière de santé et sécurité
-- Effectuer toutes autres tâches connexes
-
-EXIGENCES
-- Expérience avec divers outils de transformation
-- Expérience dans un milieu industriel (un atout)
-- Expérience de conduite d’un chariot élévateur
-- Permis de conduire (obligatoire)
-
-CE RÔLE EST POUR MOI SI JE SUIS...
-
-... habile pour transformer des matériaux et opérer des équipements de levage comme des chariots élévateurs ou des ponts roulants. Je suis également une personne polyvalente et rigoureuse qui accorde une importance primordiale à la propreté des lieux ainsi qu'au respect strict des normes de santé et sécurité au travail.]]></description>
-    <city><![CDATA[St-Marc-des-Carrières]]></city>
-    <state><![CDATA[QC]]></state>
-    <country><![CDATA[CA]]></country>
     <jobtype><![CDATA[FULL_TIME]]></jobtype>
     <posterEmail><![CDATA[hr@machitech.com]]></posterEmail>
   </job>
@@ -596,76 +270,51 @@ CLIQUEZ POUR APPLIQUER]]></description>
     <posterEmail><![CDATA[hr@machitech.com]]></posterEmail>
   </job>
   <job>
-    <title><![CDATA[Welder]]></title>
-    <partnerJobId><![CDATA[welder]]></partnerJobId>
-    <applyUrl><![CDATA[https://machitech.com/jobs/welder]]></applyUrl>
+    <title><![CDATA[Programmeur(euse) PLC / HMI]]></title>
+    <partnerJobId><![CDATA[programmeur-plc]]></partnerJobId>
+    <applyUrl><![CDATA[https://machitech.com/fr/emplois/programmeur-plc]]></applyUrl>
     <company><![CDATA[Machitech]]></company>
-    <description><![CDATA[Welder
+    <description><![CDATA[Programmeur(euse) PLC / HMI
 
-JOB DESCRIPTION
-The welder reads blueprints, prepares and assembles parts, selects and sets welding equipment, and performs high-quality welds. The role includes inspecting weld integrity, correcting defects, finishing welds, following safety standards, maintaining a clean workspace, and supporting production through accurate assembly, planning, and related fabrication duties, and complying with occupational health requirements.
+DESCRIPTION DU POSTE
+La personne occupant le poste de programmeur(euse) PLC / HMI conçoit, développe et met en œuvre des solutions d’automatisation à l’aide de la programmation PLC et HMI pour nos tables de découpe plasma et nos robots. Elle est responsable de l’intégration de nouvelles solutions impliquant des PLC, des systèmes de contrôle de mouvement, des ordinateurs industriels et d’autres dispositifs de contrôle, tout en optimisant les systèmes existants. Elle travaille en étroite collaboration avec les départements d’ingénierie et de service technique et participe à des ateliers de formation et de mentorat afin de développer davantage ses compétences en génie logiciel, mécanique et électrique.
 
-RESPONSIBILITIES
-- Read and interpret welding blueprints or instructions
-- Check the dimensions and conformity of parts before assembly and welding work
-- Clean and polish parts to be welded if necessary
-- Plan the sequence of part assembly
-- Adjust, assemble, and secure structures using bolts, clamps, spot welding, or other methods
-- Select and set up welding equipment (gas)
-- Weld, brush, grind, and polish welding excesses
-- Inspect the quality and penetration of welds and make corrections if necessary
-- Apply occupational health and safety rules
-- Maintain a clean, organized, and safe work environment
-- Perform any other related duties
+RESPONSABILITÉS
+- Programmer et maintenir les contrôleurs de machines industrielles selon des besoins spécifiques (R&D).
+- Concevoir et documenter des applications de contrôle.
+- Développer et exécuter des plans et des scripts de tests.
+- Programmer des applications d’automatisation.
+- Participer à la conception électrique.
+- Effectuer les tests fonctionnels et la mise en service.
+- Effectuer toute autre tâche connexe liée aux opérations d’automatisation et de robotique.
+- Dépanner et résoudre les problèmes d’application.
+- Estimer l’effort nécessaire pour développer des applications d’automatisation.
+- Rédiger des rapports sur les projets et les résultats.
+- Respecter les méthodes de conception et de réalisation des projets.
+- Participe au développement et à l’amélioration continue des projets de robotique de l’entreprise.
+- Collaborer avec les membres de l’équipe et effectuer des suivis.
+- S’entretenir les clients à distance ou en présentiel.
 
-REQUIREMENTS
-- Training or experience in MIG steel welding
-- Experience in an industrial environment (an asset)
-- Being able to weld in all positions
-- Comfortable wearing personal protective equipment
+EXIGENCES
+- Études collégiales en génie électrique, génie logiciel, électronique programmable et robotique ou autre formation jugée équivalente.
+- Maitrise de l’anglais de niveau intermédiaire/avancé.
+- Expérience en programmation d’automates programmables.
+- Expérience dans un domaine similaire (un atout).
+- Expérience dans l’intégration et l’évolution de nouveaux systèmes.
+- Expérience avec les systèmes d’exploitation temps réel et la programmation en environnements temps réel.
+- Connaissance des langages de programmation Structured Text, Function Block Diagram, Instruction List, C#.NET (un atout).
+- Intérêt marqué pour les systèmes de commande de mouvement (mouvement synchronisé, robotique, CNC), pour les applications PC et PLC et les systèmes mécaniques et électriques.
+- Excellentes connaissances en informatique général, dont la suite Office.
+- Maitrise de l’anglais de niveau intermédiaire/avancé**.
+- Permis de conduire valide.
 
-THIS ROLE IS FOR ME IF I AM...
+CE RÔLE EST POUR MOI SI JE SUIS...
 
-... a meticulous and versatile professional who takes immense pride in the quality and precision of every weld. I am a resourceful team player who manages priorities with total autonomy, ensuring that our production moving at the speed and rigor our projects demand.]]></description>
-    <city><![CDATA[Livermore]]></city>
-    <state><![CDATA[KY]]></state>
-    <country><![CDATA[US]]></country>
-    <jobtype><![CDATA[FULL_TIME]]></jobtype>
-    <posterEmail><![CDATA[hr@machitech.com]]></posterEmail>
-  </job>
-  <job>
-    <title><![CDATA[Laser Field Technician]]></title>
-    <partnerJobId><![CDATA[laser-field-technician]]></partnerJobId>
-    <applyUrl><![CDATA[https://machitech.com/jobs/laser-field-technician]]></applyUrl>
-    <company><![CDATA[Machitech]]></company>
-    <description><![CDATA[Laser Field Technician
-
-JOB DESCRIPTION
-The Laser Field Technician performs start-up and functional testing, and troubleshoots electrical and mechanical issues. The role includes installing cutting machines across Canada and/or the United States, providing operator training, responding to service calls, delivering on-site technical support, and completing related service and maintenance tasks.
-
-RESPONSIBILITIES
-- Assemble machine components using electrical and mechanical drawings
-- Perform start-up testing and machine configuration
-- Carry out functional tests, diagnose issues, and repair electrical and mechanical problems
-- Install laser systems primarily in Canada and the United States
-- Provide training to operators on installed equipment
-- Respond to service calls
-- Deliver on-site field service support
-- Perform any other related duties
-
-REQUIREMENTS
-- Experience and/or training in industrial electronics or electromechanics
-- Experience in industrial maintenance or equipment installation (an asset)
-- Intermediate-level English (required)
-- Available to travel within Canada and the United States (vehicle provided)
-- Valid passport and driver’s license (required)
-
-THIS ROLE IS FOR ME IF I AM...
-
-... passionate about mastering advanced fiber laser cutting systems and the technology behind them. I take pride in solving complex problems and traveling wherever the job takes me to ensure every machine performs with the speed, accuracy, and reliability customers expect.]]></description>
-    <city><![CDATA[Livermore]]></city>
-    <state><![CDATA[KY]]></state>
-    <country><![CDATA[US]]></country>
+... un(e) expert(e) technique passionné par la R&D, la programmation et la mise en service de systèmes automatisés complexes. Je possède une solide capacité d'analyse pour résoudre des problèmes, collaborer avec l'équipe de robotique et assurer un service client d'exception, que ce soit à distance ou en présentiel.
+CLIQUEZ POUR APPLIQUER]]></description>
+    <city><![CDATA[St-Marc-des-Carrières]]></city>
+    <state><![CDATA[QC]]></state>
+    <country><![CDATA[CA]]></country>
     <jobtype><![CDATA[FULL_TIME]]></jobtype>
     <posterEmail><![CDATA[hr@machitech.com]]></posterEmail>
   </job>
@@ -715,6 +364,439 @@ REQUIREMENTS
 THIS ROLE IS FOR ME IF I AM...
 
 ... a technical expert driven to master laser applications and bring them to life through precise assembly, R&D collaboration, and on-site material testing. I take pride in traveling across North America to simplify complex systems for our clients, ensuring every machine operates with the elite quality and reliability they expect.]]></description>
+    <city><![CDATA[Livermore]]></city>
+    <state><![CDATA[KY]]></state>
+    <country><![CDATA[US]]></country>
+    <jobtype><![CDATA[FULL_TIME]]></jobtype>
+    <posterEmail><![CDATA[hr@machitech.com]]></posterEmail>
+  </job>
+  <job>
+    <title><![CDATA[Agent(e) de bureau bilingue]]></title>
+    <partnerJobId><![CDATA[agent-de-bureau-bilingue]]></partnerJobId>
+    <applyUrl><![CDATA[https://machitech.com/fr/emplois/agent-de-bureau-bilingue]]></applyUrl>
+    <company><![CDATA[Machitech]]></company>
+    <description><![CDATA[Agent(e) de bureau bilingue
+
+DESCRIPTION DU POSTE
+Sous la supervision de la Responsable des opérations techniques, l’agent(e) de bureau assure le soutien administratif et la coordination des activités financières et documentaires du département de service technique. La personne contribue directement à la fluidité des opérations en veillant à l’exactitude des documents, à la validation des informations et au respect des processus internes. Des responsabilités supplémentaires s’ajouteront en fonction des conditions à et de l’horaire de travail à respecter.
+
+RESPONSABILITÉS
+- Effectuer la validation de la facturation des factures clients selon les ententes contractuelles et les travaux réalisés
+- Valider les honoraires, taux, heures et frais applicables
+- Préparer les offres de service
+- Assurer la gestion administrative des bons de commande (PO)
+- Réviser et revérifier les éléments de facturation avant émission
+- Collaborer avec les équipes techniques pour confirmer les informations nécessaires à la facturation
+- Maintenir à jour les dossiers clients et la documentation opérationnelle
+- Soutenir la Responsable des opérations techniques dans diverses tâches administratives
+- Contribuer à l’amélioration continue des processus et des outils administratifs.
+
+EXIGENCES
+- Diplôme d’études professionnelles en administration, bureautique ou domaine connexe
+- Expérience minimale de 2 ans dans un rôle administratif, idéalement en environnement industriel ou technique
+- Aisance avec les outils informatiques (ERP, Suite office 365)
+- Excellentes habiletés de communication en français, tant à l’oral qu’à l’écrit et connaissance professionnel de l’anglais. La connaissance de l’anglais est requise considérant les échanges avec différentes parties prenantes au Canada et aux États-Unis
+- Rigueur, souci du détail et excellent sens de l’organisation
+- Capacité à gérer plusieurs dossiers simultanément
+- Autonomie et sens des priorités.
+
+CE RÔLE EST POUR MOI SI JE SUIS...
+
+... un(e) passionné(e) de la rigueur administrative qui carbure à la précision des données contractuelles et à l’optimisation des processus de bons de commande. Je suis un(e) collaborateur(trice) bilingue et organisé(e) qui maîtrise les environnements ERP, et je retire une grande fierté à assurer l'exactitude des frais et honoraires tout en offrant un soutien administratif impeccable aux équipes techniques.]]></description>
+    <city><![CDATA[St-Marc-des-Carrières]]></city>
+    <state><![CDATA[QC]]></state>
+    <country><![CDATA[CA]]></country>
+    <jobtype><![CDATA[FULL_TIME]]></jobtype>
+    <posterEmail><![CDATA[hr@machitech.com]]></posterEmail>
+  </job>
+  <job>
+    <title><![CDATA[Technicien(ne) presses plieuses]]></title>
+    <partnerJobId><![CDATA[technicien-presses-plieuses]]></partnerJobId>
+    <applyUrl><![CDATA[https://machitech.com/fr/emplois/technicien-presses-plieuses]]></applyUrl>
+    <company><![CDATA[Machitech]]></company>
+    <description><![CDATA[Technicien(ne) presses plieuses
+
+DESCRIPTION DU POSTE
+La personne occupant le poste de technicien(ne) presses plieuses assemble, installe et effectue l’entretien des presses plieuses. Le rôle comprend le diagnostic, les ajustements, la maintenance préventive, la formation des opérateurs et le soutien technique chez les clients. Elle travaille à l’usine et sur les sites clients, assurant la performance des équipements, la documentation de service et le soutien aux opérations de production et de service.
+
+RESPONSABILITÉS
+- Effectuer toutes les étapes de fabrication en usine conformément aux procédures établies.
+- Installer les nouveaux équipements chez les clients.
+- Effectuer la maintenance préventive des machines.
+- Diagnostiquer et réparer les équipements sur les sites clients.
+- Ajuster et opérer les machines selon les exigences de production.
+- Former les opérateurs d’équipement.
+- Compléter et soumettre les rapports de service ainsi que toute la documentation administrative requise (achats, paie, remboursements, etc.).
+- Effectuer toute autre tâche connexe selon les besoins.
+
+EXIGENCES
+- Diplôme en électromécanique ou expérience équivalente.
+- Expérience comme opérateur/régleur de presse plieuse (un atout).
+- Expérience en programmation et en opération d’un contrôleur Delem (un atout).
+- Expérience en maintenance industrielle ou en installation d’équipements (un atout).
+- Solides connaissances en mécanique, électricité et hydraulique.
+- Connaissances de base de la suite Microsoft Office.
+- Permis de conduire valide.
+- Passeport valide.
+
+CE RÔLE EST POUR MOI SI JE SUIS...
+
+... passionné(e) par la maîtrise des presses plieuses et de la technologie qui les propulse. Je tire une grande fierté à résoudre des problèmes complexes et à voyager partout où le travail m'appelle pour m'assurer que chaque machine performe avec la vitesse, la précision et la fiabilité que les clients attendent.
+CLIQUEZ POUR APPLIQUER]]></description>
+    <city><![CDATA[St-Marc-des-Carrières]]></city>
+    <state><![CDATA[QC]]></state>
+    <country><![CDATA[CA]]></country>
+    <jobtype><![CDATA[FULL_TIME]]></jobtype>
+    <posterEmail><![CDATA[hr@machitech.com]]></posterEmail>
+  </job>
+  <job>
+    <title><![CDATA[Industrial Mechanic]]></title>
+    <partnerJobId><![CDATA[industrial-mechanic]]></partnerJobId>
+    <applyUrl><![CDATA[https://machitech.com/jobs/industrial-mechanic]]></applyUrl>
+    <company><![CDATA[Machitech]]></company>
+    <description><![CDATA[Industrial Mechanic
+
+JOB DESCRIPTION
+The Industrial Mechanic at Machitech assembles machine components based on mechanical drawings and performs start-up tests to ensure proper operation. The role includes troubleshooting, repairing, and testing mechanical and electrical systems on industrial cutting equipment while supporting continuous product improvement. This position requires strong mechanical aptitude, autonomy, attention to detail, and the ability to work effectively within a team.
+
+RESPONSIBILITIES
+- Assemble machine components using mechanical drawings
+- Perform start-up tests and machine configuration
+- Conduct operational tests, troubleshoot, and repair electrical and mechanical issues
+- Participate in product development
+- Perform any other related duties
+
+REQUIREMENTS
+- Experience and/or training in industrial mechanics
+- Experience in industrial maintenance or equipment installation (an asset)
+- Experience in electricity, industrial electronics, or equipment installation (an asset)
+
+THIS ROLE IS FOR ME IF I AM...
+
+... a person who combines high manual dexterity with the curiosity to master complex machine assembly.
+I am a meticulous, energetic team player who thrives on solving mechanical challenges with precision while ensuring every configuration meets our high standards for quality.]]></description>
+    <city><![CDATA[Livermore]]></city>
+    <state><![CDATA[KY]]></state>
+    <country><![CDATA[US]]></country>
+    <jobtype><![CDATA[FULL_TIME]]></jobtype>
+    <posterEmail><![CDATA[hr@machitech.com]]></posterEmail>
+  </job>
+  <job>
+    <title><![CDATA[Robotics Field Technician]]></title>
+    <partnerJobId><![CDATA[robotics-field-technician]]></partnerJobId>
+    <applyUrl><![CDATA[https://machitech.com/jobs/robotics-field-technician]]></applyUrl>
+    <company><![CDATA[Machitech]]></company>
+    <description><![CDATA[Robotics Field Technician
+
+JOB DESCRIPTION
+The Robotics Field Technician performs start-up and functional testing, and troubleshoots electrical and mechanical issues. The role includes installing robotic plasma cutting systems across Canada and/or the United States, providing operator training, responding to service calls, delivering on-site technical support, and completing related service and maintenance tasks.
+
+RESPONSIBILITIES
+- Assemble machine components using electrical and mechanical drawings
+- Perform start-up testing and machine configuration
+- Carry out functional tests, diagnose issues, and repair electrical and mechanical problems
+- Install robotic cutting systems primarily in Canada and the United States
+- Provide training to operators on installed equipment
+- Respond to service calls
+- Deliver on-site field service support
+- Perform any other related duties
+
+REQUIREMENTS
+- Experience and/or training in industrial electronics or electromechanics
+- Experience in industrial maintenance or equipment installation (an asset)
+- Experience with Fanuc or other robots (an asset)
+- Intermediate-level English (required)
+- Available to travel within Canada and the United States (vehicle provided)
+- Valid passport and driver’s license (required)
+
+THIS ROLE IS FOR ME IF I AM...
+
+... passionate about mastering robotic cutting systems and the technology behind them. I take pride in solving complex problems and traveling wherever the job takes me to ensure every machine performs with the speed, accuracy, and reliability customers expect.]]></description>
+    <city><![CDATA[Livermore]]></city>
+    <state><![CDATA[KY]]></state>
+    <country><![CDATA[US]]></country>
+    <jobtype><![CDATA[FULL_TIME]]></jobtype>
+    <posterEmail><![CDATA[hr@machitech.com]]></posterEmail>
+  </job>
+  <job>
+    <title><![CDATA[Industrial Painter]]></title>
+    <partnerJobId><![CDATA[industrial-painter]]></partnerJobId>
+    <applyUrl><![CDATA[https://machitech.com/jobs/industrial-painter]]></applyUrl>
+    <company><![CDATA[Machitech]]></company>
+    <description><![CDATA[Industrial Painter
+
+JOB DESCRIPTION
+The Industrial Painter at Machitech ensures the aesthetic and protective finish of our machines by preparing and applying paint with precision. The role involves surface preparation through sanding or degreasing, handling heavy parts using lifting equipment, and rigorously maintaining spray equipment to guarantee consistent quality.
+
+RESPONSIBILITIES
+- Maintain a clean, organized, and safe work environment
+- Prepare and mix paint
+- Manuever parts using a forklift or overhead crane
+- Prepare surfaces for painting (cleaning, sanding, and occasionally stripping or degreasing)
+- Paint parts and perform touch-ups as needed
+- Maintain inventory of materials and equipment
+- Clean accessories and equipment using solvents
+- Comply with health and safety regulations
+- Perform all other related duties
+
+REQUIREMENTS
+- High school diploma or equivalent
+- Training in industrial painting, surface treatment, bodywork, or construction painting (an asset)
+- Relevant work experience in industrial painting (2 to 3 years)
+
+THIS ROLE IS FOR ME IF I AM...
+
+...  if I have mastered industrial paint mixing and application techniques while being capable of maneuvering parts with a forklift or overhead crane. I am an autonomous and meticulous person who takes great satisfaction in impeccable finishing work performed in strict compliance with safety standards.]]></description>
+    <city><![CDATA[Livermore]]></city>
+    <state><![CDATA[KY]]></state>
+    <country><![CDATA[US]]></country>
+    <jobtype><![CDATA[FULL_TIME]]></jobtype>
+    <posterEmail><![CDATA[hr@machitech.com]]></posterEmail>
+  </job>
+  <job>
+    <title><![CDATA[Technicien(ne) plasma]]></title>
+    <partnerJobId><![CDATA[technicien-plasma]]></partnerJobId>
+    <applyUrl><![CDATA[https://machitech.com/fr/emplois/technicien-plasma]]></applyUrl>
+    <company><![CDATA[Machitech]]></company>
+    <description><![CDATA[Technicien(ne) plasma
+
+DESCRIPTION DU POSTE
+La personne occupant le poste de technicien(ne) de service pour systèmes de découpe au plasma effectue le démarrage et les tests fonctionnels, en plus de diagnostiquer les problèmes électriques et mécaniques. Le rôle consiste à installer des systèmes de coupe au plasma partout au Canada et/ou aux États-Unis, à former les opérateurs, à répondre aux appels de service, à fournir un soutien technique sur place et à accomplir les tâches de service et de maintenance connexes.
+
+RESPONSABILITÉS
+- Effectuer toutes les étapes de fabrication en usine conformément aux procédures établies.
+- Installer les nouveaux équipements chez les clients.
+- Effectuer la maintenance préventive des machines.
+- Diagnostiquer et réparer les équipements sur les sites clients.
+- Ajuster et opérer les machines selon les exigences de production.
+- Former les opérateurs d’équipement.
+- Compléter et soumettre les rapports de service ainsi que toute la documentation administrative requise (achats, paie, remboursements, etc.).
+- Effectuer toute autre tâche connexe selon les besoins.
+
+EXIGENCES
+- Diplôme en électromécanique ou expérience équivalente.
+- Expérience en maintenance industrielle ou en installation d’équipements (un atout).
+- Solides connaissances en mécanique, électricité et hydraulique.
+- Connaissances de base de la suite Microsoft Office.
+- Permis de conduire valide.
+- Passeport valide.
+
+CE RÔLE EST POUR MOI SI JE SUIS...
+
+... passionné(e) par la maîtrise des systèmes de découpe au plasma et de leur technologie. Je tire une grande fierté à résoudre des problèmes complexes et à voyager partout où le travail m'appelle pour m'assurer que chaque machine performe avec la vitesse, la précision et la fiabilité que les clients attendent.
+CLIQUEZ POUR APPLIQUER]]></description>
+    <city><![CDATA[St-Marc-des-Carrières]]></city>
+    <state><![CDATA[QC]]></state>
+    <country><![CDATA[CA]]></country>
+    <jobtype><![CDATA[FULL_TIME]]></jobtype>
+    <posterEmail><![CDATA[hr@machitech.com]]></posterEmail>
+  </job>
+  <job>
+    <title><![CDATA[Manoeuvre]]></title>
+    <partnerJobId><![CDATA[manoeuvre]]></partnerJobId>
+    <applyUrl><![CDATA[https://machitech.com/fr/emplois/manoeuvre]]></applyUrl>
+    <company><![CDATA[Machitech]]></company>
+    <description><![CDATA[Manoeuvre
+
+DESCRIPTION DU POSTE
+La personne occupant le poste de manoeuvre assure la fluidité de la production et de la logistique en manipulant divers outils de transformation et en opérant des équipements de levage. Le rôle consiste à préparer les commandes, à gérer la réception et l'expédition de la marchandise ainsi qu'à maintenir un environnement de travail sécuritaire et ordonné pour garantir l'efficacité des opérations quotidiennes.
+
+RESPONSABILITÉS
+- Maintenir un environnement de travail propre, ordonné et sécuritaire
+- Manipuler divers outils de transformation (scier, couper, percer, etc.)
+- Aider à la réception et l’expédition de marchandise
+- Préparer les commandes et remplir la documentation associée
+- Effectuer la rotation de la marchandise
+- Aider aux chargements et aux déchargements des transporteurs
+- Déplacer du matériel à l’aide d’un chariot élévateur et d’un pont roulant
+- Déneiger les entrées durant la saison hivernale
+- Respecter les consignes en matière de santé et sécurité
+- Effectuer toutes autres tâches connexes
+
+EXIGENCES
+- Expérience avec divers outils de transformation
+- Expérience dans un milieu industriel (un atout)
+- Expérience de conduite d’un chariot élévateur
+- Permis de conduire (obligatoire)
+
+CE RÔLE EST POUR MOI SI JE SUIS...
+
+... habile pour transformer des matériaux et opérer des équipements de levage comme des chariots élévateurs ou des ponts roulants. Je suis également une personne polyvalente et rigoureuse qui accorde une importance primordiale à la propreté des lieux ainsi qu'au respect strict des normes de santé et sécurité au travail.]]></description>
+    <city><![CDATA[St-Marc-des-Carrières]]></city>
+    <state><![CDATA[QC]]></state>
+    <country><![CDATA[CA]]></country>
+    <jobtype><![CDATA[FULL_TIME]]></jobtype>
+    <posterEmail><![CDATA[hr@machitech.com]]></posterEmail>
+  </job>
+  <job>
+    <title><![CDATA[Plasma Field Technician]]></title>
+    <partnerJobId><![CDATA[plasma-field-technician]]></partnerJobId>
+    <applyUrl><![CDATA[https://machitech.com/jobs/plasma-field-technician]]></applyUrl>
+    <company><![CDATA[Machitech]]></company>
+    <description><![CDATA[Plasma Field Technician
+
+JOB DESCRIPTION
+The Plasma Field Technician performs start-up and functional testing, and troubleshoots electrical and mechanical issues. The role includes installing plasma cutting systems across Canada and/or the United States, providing operator training, responding to service calls, delivering on-site technical support, and completing related service and maintenance tasks.
+
+RESPONSIBILITIES
+- Assemble machine components using electrical and mechanical drawings
+- Perform start-up testing and machine configuration
+- Carry out functional tests, diagnose issues, and repair electrical and mechanical problems
+- Install plasma cutting systems primarily in Canada and the United States
+- Provide training to operators on installed equipment
+- Respond to service calls
+- Deliver on-site field service support
+- Perform any other related duties
+
+REQUIREMENTS
+- Experience and/or training in industrial electronics or electromechanics
+- Experience in industrial maintenance or equipment installation (an asset)
+- Intermediate-level English (required)
+- Available to travel within Canada and the United States (vehicle provided)
+- Valid passport and driver’s license (required)
+
+THIS ROLE IS FOR ME IF I AM...
+
+... passionate about mastering plasma cutting systems and the technology behind them. I take pride in solving complex problems and traveling wherever the job takes me to ensure every machine performs with the speed, accuracy, and reliability customers expect.]]></description>
+    <city><![CDATA[Livermore]]></city>
+    <state><![CDATA[KY]]></state>
+    <country><![CDATA[US]]></country>
+    <jobtype><![CDATA[FULL_TIME]]></jobtype>
+    <posterEmail><![CDATA[hr@machitech.com]]></posterEmail>
+  </job>
+  <job>
+    <title><![CDATA[Press Brake Field Technician]]></title>
+    <partnerJobId><![CDATA[press-brake-field-technician]]></partnerJobId>
+    <applyUrl><![CDATA[https://machitech.com/jobs/press-brake-field-technician]]></applyUrl>
+    <company><![CDATA[Machitech]]></company>
+    <description><![CDATA[Press Brake Field Technician
+
+JOB DESCRIPTION
+The Press Brake Field Technician performs start-up and functional testing, and troubleshoots electrical and mechanical issues. The role includes installing press brakes across Canada and/or the United States, providing operator training, responding to service calls, delivering on-site technical support, and completing related service and maintenance tasks.
+
+RESPONSIBILITIES
+- Assemble machine components using electrical and mechanical drawings
+- Perform start-up testing and machine configuration
+- Carry out functional tests, diagnose issues, and repair electrical and mechanical problems
+- Install press brakes primarily in Canada and the United States
+- Provide training to operators on installed equipment
+- Respond to service calls
+- Deliver on-site field service support
+- Perform any other related duties
+
+REQUIREMENTS
+- Experience and/or training in industrial electronics or electromechanics
+- Experience in industrial maintenance or equipment installation (an asset)
+- Intermediate-level English (required)
+- Available to travel within Canada and the United States (vehicle provided)
+- Valid passport and driver’s license (required)
+
+THIS ROLE IS FOR ME IF I AM...
+
+... passionate about mastering press brakes and the technology behind them. I take pride in solving complex problems and traveling wherever the job takes me to ensure every machine performs with the speed, accuracy, and reliability customers expect.]]></description>
+    <city><![CDATA[Livermore]]></city>
+    <state><![CDATA[KY]]></state>
+    <country><![CDATA[US]]></country>
+    <jobtype><![CDATA[FULL_TIME]]></jobtype>
+    <posterEmail><![CDATA[hr@machitech.com]]></posterEmail>
+  </job>
+  <job>
+    <title><![CDATA[Électromécanicien(ne)]]></title>
+    <partnerJobId><![CDATA[electromecanicien]]></partnerJobId>
+    <applyUrl><![CDATA[https://machitech.com/fr/emplois/electromecanicien]]></applyUrl>
+    <company><![CDATA[Machitech]]></company>
+    <description><![CDATA[Électromécanicien(ne)
+
+DESCRIPTION DU POSTE
+La personne occupant le poste d'électromécanicien(ne) assemble des composants de machines complexes en interprétant les schémas électriques et mécaniques pour assurer une intégration précise. Le rôle consiste à effectuer des tests de démarrage critiques, à configurer les logiciels des machines et à diagnostiquer les problèmes électriques ou mécaniques pour maintenir les standards opérationnels les plus élevés.
+
+RESPONSABILITÉS
+- Assembler les composants de machines à l'aide de schémas électriques et mécaniques
+- Effectuer les tests de démarrage et la configuration des machines
+- Peut être appelé à diagnostiquer et réparer des problèmes électriques et mécaniques
+- Participer au développement de produits
+- Effectuer toute autre tâche connexe
+
+EXIGENCES
+- Expérience ou formation en électronique industrielle, en électromécanique ou dans un autre domaine connexe
+- Expérience en maintenance industrielle ou en installation d'équipements (un atout)
+
+CE RÔLE EST POUR MOI SI JE SUIS...
+
+... un(e) spécialiste technique qui maîtrise l'intersection des systèmes électriques et mécaniques pour construire et configurer des machines industrielles. Je suis un(e) solutionneur(euse) de problèmes méticuleux, doté(e) d'une grande dextérité manuelle, qui adore diagnostiquer des schémas complexes et collaborer avec l'équipe d'ingénierie.]]></description>
+    <city><![CDATA[St-Marc-des-Carrières]]></city>
+    <state><![CDATA[QC]]></state>
+    <country><![CDATA[CA]]></country>
+    <jobtype><![CDATA[FULL_TIME]]></jobtype>
+    <posterEmail><![CDATA[hr@machitech.com]]></posterEmail>
+  </job>
+  <job>
+    <title><![CDATA[Programmeur(euse) analyste]]></title>
+    <partnerJobId><![CDATA[programmeur-analyste]]></partnerJobId>
+    <applyUrl><![CDATA[https://machitech.com/fr/emplois/programmeur-analyste]]></applyUrl>
+    <company><![CDATA[Machitech]]></company>
+    <description><![CDATA[Programmeur(euse) analyste
+
+DESCRIPTION DU POSTE
+La personne occupant le poste de programmeur(euse) analyste chez Machitech développe et perfectionne des applications robustes en C#.net tout en collaborant avec l’équipe pour intégrer des fonctionnalités innovantes. Son rôle consiste à optimiser les bases de données MS SQL Server, à assurer la stabilité des logiciels par des tests rigoureux et à évoluer dans un environnement Agile pour garantir des standards de performance et de fiabilité élevés.
+
+RESPONSABILITÉS
+- Développer et perfectionner des applications en C#.net.
+- Utiliser les meilleures techniques de programmation pour assurer un environnement stable et performant.
+- Collaborer avec l’équipe pour améliorer nos logiciels et intégrer de nouvelles fonctionnalités.
+- Gérer et optimiser les bases de données sous MS SQL Server.
+- Utiliser Git pour le versionnement du code.
+- Effectuer des tests, optimiser et déboguer les applications afin d’en garantir la fiabilité et l’efficacité.
+- Contribuer au développement et à l’optimisation des interfaces utilisateurs.
+- Travailler selon les principes Agile pour une gestion efficace des projets.
+- Respecter les standards, normes et procédures en vigueur pour assurer la qualité des logiciels et services informatiques.
+- Effectuer toute autre tâche en lien avec le poste.
+
+EXIGENCES
+- Études en informatique, en programmation ou en génie logiciel
+- Expérience dans un poste similaire (un atout ).
+- Maîtriser les langages de programmation C#.NET et Python.
+- Capable de créer des interfaces WPF ou Windows form.
+- Connaissance des systèmes de contrôle pour équipements CNC / robotique (un atout).
+- Connaître les bases de données et leurs systèmes de gestion (My SQL).
+- Expérience avec d’autres technologies front-end/back-end.
+- Connaissance des architectures logicielles.
+- Expérience en développement Agile
+- Connaissance des normes et standards de développement.
+
+CE RÔLE EST POUR MOI SI JE SUIS...
+
+... un(e) passionné(e) de programmation C#.net qui carbure à la résolution de problèmes complexes et à l'optimisation de bases de données. Je suis un(e) collaborateur(trice) rigoureux(euse) qui maîtrise les environnements Agile et Git, et je retire une grande fierté à livrer un code propre, performant et parfaitement adapté aux besoins des utilisateurs.]]></description>
+    <city><![CDATA[St-Marc-des-Carrières]]></city>
+    <state><![CDATA[QC]]></state>
+    <country><![CDATA[CA]]></country>
+    <jobtype><![CDATA[FULL_TIME]]></jobtype>
+    <posterEmail><![CDATA[hr@machitech.com]]></posterEmail>
+  </job>
+  <job>
+    <title><![CDATA[Electromechanic]]></title>
+    <partnerJobId><![CDATA[electromechanic]]></partnerJobId>
+    <applyUrl><![CDATA[https://machitech.com/jobs/electromechanic]]></applyUrl>
+    <company><![CDATA[Machitech]]></company>
+    <description><![CDATA[Electromechanic
+
+JOB DESCRIPTION
+The Electromechanic at Machitech assembles complex machine components by interpreting both electrical and mechanical schematics to ensure precise integration. The role involves performing critical start-up tests, configuring machine software, and troubleshooting electrical or mechanical issues to maintain peak operational standards.
+
+RESPONSIBILITIES
+- Assemble machine components using electrical and mechanical schematics
+- Perform start-up tests and machine configuration
+- May be required to troubleshoot and repair electrical and mechanical issues
+- Participate in product development
+- Perform any other related duties
+
+REQUIREMENTS
+- Experience or training in industrial electronics, electromechanics, or another related field
+- Experience in industrial maintenance or equipment installation (an asset)
+
+THIS ROLE IS FOR ME IF I AM...
+
+... a technical specialist who masters the intersection of electrical and mechanical systems to build and configure industrial machinery. I am a meticulous problem solver with strong manual dexterity who thrives on troubleshooting complex schematics and collaborating with the engineering team.]]></description>
     <city><![CDATA[Livermore]]></city>
     <state><![CDATA[KY]]></state>
     <country><![CDATA[US]]></country>
