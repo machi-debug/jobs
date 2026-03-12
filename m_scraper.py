@@ -278,21 +278,11 @@ def extract_title_and_description(html: str) -> Tuple[str, str]:
 
 
 def make_partner_job_id(url: str, city: str = "") -> str:
-    """
-    Build a unique partnerJobId from the URL slug + city suffix.
-    This ensures that when the same job is duplicated across locations,
-    each entry has a distinct ID (LinkedIn uses this as the unique key).
-
-    Examples:
-      soudeur-victoriaville  →  soudeur-victoriaville
-      soudeur-victoriaville  →  soudeur-st-marc-des-carrieres
-    """
     path = urlparse(url).path.rstrip("/")
     slug = path.split("/")[-1] if path else "machitech-job"
     slug = slug or "machitech-job"
 
     if city:
-        # Normalize city to a URL-safe suffix: lowercase, spaces/accents → hyphens
         city_slug = city.lower()
         city_slug = re.sub(r"[àáâãäå]", "a", city_slug)
         city_slug = re.sub(r"[èéêë]", "e", city_slug)
@@ -301,9 +291,12 @@ def make_partner_job_id(url: str, city: str = "") -> str:
         city_slug = re.sub(r"[ùúûü]", "u", city_slug)
         city_slug = re.sub(r"[ç]", "c", city_slug)
         city_slug = re.sub(r"[^a-z0-9]+", "-", city_slug).strip("-")
-        return f"{slug}-{city_slug}"
+        full_id = f"{slug}-{city_slug}"
+    else:
+        full_id = slug
 
-    return slug
+    # LinkedIn limit — truncate to 50 chars, strip any trailing hyphen
+    return full_id[:50].rstrip("-")
 
 
 def scrape_job(url: str, timeout: int, retries: int, sleep_s: float, verbose: bool) -> List[JobRecord]:
@@ -440,3 +433,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
