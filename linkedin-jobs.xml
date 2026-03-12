@@ -148,6 +148,43 @@ CE RÔLE EST POUR MOI SI JE SUIS...
   </job>
   <job>
     <title><![CDATA[Manoeuvre]]></title>
+    <partnerJobId><![CDATA[manoeuvre-st-marc-des-carrieres]]></partnerJobId>
+    <applyUrl><![CDATA[https://machitech.com/fr/emplois/manoeuvre]]></applyUrl>
+    <company><![CDATA[Machitech]]></company>
+    <description><![CDATA[Manoeuvre
+
+DESCRIPTION DU POSTE
+La personne occupant le poste de manoeuvre assure la fluidité de la production et de la logistique en manipulant divers outils de transformation et en opérant des équipements de levage. Le rôle consiste à préparer les commandes, à gérer la réception et l'expédition de la marchandise ainsi qu'à maintenir un environnement de travail sécuritaire et ordonné pour garantir l'efficacité des opérations quotidiennes.
+
+RESPONSABILITÉS
+- Maintenir un environnement de travail propre, ordonné et sécuritaire
+- Manipuler divers outils de transformation (scier, couper, percer, etc.)
+- Aider à la réception et l’expédition de marchandise
+- Préparer les commandes et remplir la documentation associée
+- Effectuer la rotation de la marchandise
+- Aider aux chargements et aux déchargements des transporteurs
+- Déplacer du matériel à l’aide d’un chariot élévateur et d’un pont roulant
+- Déneiger les entrées durant la saison hivernale
+- Respecter les consignes en matière de santé et sécurité
+- Effectuer toutes autres tâches connexes
+
+EXIGENCES
+- Expérience avec divers outils de transformation
+- Expérience dans un milieu industriel (un atout)
+- Expérience de conduite d’un chariot élévateur
+- Permis de conduire (obligatoire)
+
+CE RÔLE EST POUR MOI SI JE SUIS...
+
+... habile pour transformer des matériaux et opérer des équipements de levage comme des chariots élévateurs ou des ponts roulants. Je suis également une personne polyvalente et rigoureuse qui accorde une importance primordiale à la propreté des lieux ainsi qu'au respect strict des normes de santé et sécurité au travail.]]></description>
+    <city><![CDATA[St-Marc-des-Carrières]]></city>
+    <state><![CDATA[QC]]></state>
+    <country><![CDATA[CA]]></country>
+    <jobtype><![CDATA[FULL_TIME]]></jobtype>
+    <posterEmail><![CDATA[hr@machitech.com]]></posterEmail>
+  </job>
+  <job>
+    <title><![CDATA[Manoeuvre]]></title>
     <partnerJobId><![CDATA[manoeuvre-victoriaville]]></partnerJobId>
     <applyUrl><![CDATA[https://machitech.com/fr/emplois/manoeuvre]]></applyUrl>
     <company><![CDATA[Machitech]]></company>
