@@ -44,15 +44,21 @@ REMOVE_PHRASES = [
 
 # Lines like "Livermore, Kentucky" / "Victoriaville, Quebec" / "St-Marc-des-Carrières, Quebec"
 LOCATION_LINE_RE = re.compile(
-    r"^\s*[A-Za-zÀ-ÿ0-9\-\s’'()./]+,\s*(kentucky|quebec|québec|canada|usa|united states|é-u|e-u)\s*$",
+    r"^\s*[A-Za-zÀ-ÿ0-9\-\s''()./]+,\s*(kentucky|quebec|québec|canada|usa|united states|é-u|e-u)\s*$",
     re.IGNORECASE,
 )
 
-# Some pages repeat apply CTAs or show multiple location blocks; remove obvious garbage lines.
 GARBAGE_LINE_RE = re.compile(
     r"^(?:share|partager)\s+on\s+(?:facebook|linkedin)\s*$|^(?:share|partager)\s+sur\s+(?:facebook|linkedin)\s*$",
     re.IGNORECASE,
 )
+
+# Known QC locations — extend this list as needed
+QC_LOCATIONS = [
+    ("st-marc", "St-Marc-des-Carrières"),
+    ("st marc", "St-Marc-des-Carrières"),
+    ("victoriaville", "Victoriaville"),
+]
 
 
 def clean_description(raw: str) -> str:
@@ -61,36 +67,28 @@ def clean_description(raw: str) -> str:
 
     raw = raw.replace("\r\n", "\n").replace("\r", "\n")
 
-    # ---- HubSpot/HTML artifact normalization ----
     raw = re.sub(r"</\s*mark\s*>", " ", raw, flags=re.IGNORECASE)
     raw = re.sub(r"<\s*mark[^>]*>", "", raw, flags=re.IGNORECASE)
 
     lines = []
     current_section = None
 
-    # Detect French vs English (once) so headers stay in the right language
-    # - French pages usually contain accents/FR headers, or /fr/ in the URL before scraping,
-    #   but here we only have the raw text, so detect by content.
     FR_SIGNAL_RE = re.compile(
         r"\b(description\s+du\s+poste|responsabilit[eé]s|exigences|ce\s+r[oô]le\s+est\s+pour\s+moi|si\s+je\s+suis)\b",
         re.IGNORECASE
     )
     is_french = bool(FR_SIGNAL_RE.search(raw))
 
-    # Normalized output headers (language-aware)
     HDR_DESC = "DESCRIPTION DU POSTE" if is_french else "JOB DESCRIPTION"
     HDR_RESP = "RESPONSABILITÉS" if is_french else "RESPONSIBILITIES"
     HDR_REQ  = "EXIGENCES" if is_french else "REQUIREMENTS"
 
-    # FIT headers (language-aware)
     FIT_HDR_FR = "CE RÔLE EST POUR MOI SI JE SUIS..."
     FIT_HDR_EN = "THIS ROLE IS FOR ME IF I AM..."
 
-    # More tolerant matching (accent/no-accent, ROLE/JOB variants)
     FIT_FR_RE = re.compile(r"\bce\s+r[oô]le\s+est\s+pour\s+moi\b", re.IGNORECASE)
     FIT_EN_RE = re.compile(r"\bthis\s+(role|job)\s+is\s+for\s+me\b", re.IGNORECASE)
 
-    # Lines that should never be bulleted (they belong to the fit block)
     FIT_FR_IF_RE = re.compile(r"^\s*si\s+je\s+suis\b", re.IGNORECASE)
     FIT_EN_IF_RE = re.compile(r"^\s*if\s+i\s+am\b", re.IGNORECASE)
 
@@ -101,15 +99,12 @@ def clean_description(raw: str) -> str:
 
         low = s.lower()
 
-        # Remove junk
         if any(p in low for p in REMOVE_PHRASES):
             continue
 
-        # Remove standalone location lines
         if LOCATION_LINE_RE.match(s):
             continue
 
-        # Normalize section headers (accept both FR/EN inputs, output in detected language)
         if s.upper() in ["JOB DESCRIPTION", "DESCRIPTION DU POSTE", "DESCRIPTION DE POSTE"]:
             current_section = "description"
             lines.append(f"\n{HDR_DESC}")
@@ -125,7 +120,6 @@ def clean_description(raw: str) -> str:
             lines.append(f"\n{HDR_REQ}")
             continue
 
-        # --- FIT SECTION (force a new section, no bullets) ---
         if FIT_FR_RE.search(s):
             current_section = "fit"
             lines.append(f"\n{FIT_HDR_FR}\n")
@@ -136,21 +130,16 @@ def clean_description(raw: str) -> str:
             lines.append(f"\n{FIT_HDR_EN}\n")
             continue
 
-        # If we hit "SI JE SUIS" / "IF I AM" lines, treat as fit content (never bullet)
         if FIT_FR_IF_RE.match(s) or FIT_EN_IF_RE.match(s):
             current_section = "fit"
-            # Skip these lines (redundant)
             continue
 
-        # Add bullets only to responsibilities & requirements
         if current_section in ["responsibilities", "requirements"]:
             lines.append(f"- {s}")
         else:
             lines.append(s)
 
     text = "\n".join(lines)
-
-    # Clean spacing
     text = re.sub(r"[ \t]+", " ", text)
     text = re.sub(r"\n{3,}", "\n\n", text).strip()
 
@@ -204,13 +193,11 @@ def get_job_urls_from_sitemap(sitemap_url: str, timeout: int, retries: int, slee
     soup = BeautifulSoup(r.content, "xml")
 
     urls = [loc.text.strip() for loc in soup.find_all("loc") if loc and loc.text]
-    # Only job pages (EN) or emplois (FR)
     job_urls = []
     for u in urls:
         if "/jobs/" in u or "/fr/emplois/" in u:
             job_urls.append(u)
 
-    # Remove index/listing pages if present
     exclude = {
         "https://machitech.com/jobs",
         "https://machitech.com/jobs/",
@@ -222,7 +209,6 @@ def get_job_urls_from_sitemap(sitemap_url: str, timeout: int, retries: int, slee
 
     job_urls = [u for u in job_urls if u not in exclude]
 
-    # Deduplicate while preserving order
     seen = set()
     deduped = []
     for u in job_urls:
@@ -236,44 +222,50 @@ def get_job_urls_from_sitemap(sitemap_url: str, timeout: int, retries: int, slee
     return deduped
 
 
-def infer_location(url: str, page_text: str) -> Tuple[str, str, str]:
+def infer_locations(url: str, page_text: str) -> List[Tuple[str, str, str]]:
     """
-    Location rules (customize if needed):
-    - English /jobs/ defaults to Livermore, KY, US
-    - French /fr/emplois/ defaults to Victoriaville, QC, CA
-    - If St-Marc-des-Carrières is detected in content or URL, set city accordingly (QC, CA)
+    Returns a list of (city, state, country) tuples.
+
+    - English /jobs/ → always single location: Livermore, KY, US
+    - French /fr/emplois/ → detect ALL QC cities mentioned in the page text or URL.
+      If multiple QC cities are found, return one tuple per city so the caller
+      can create a separate LinkedIn job posting for each location.
+      Falls back to Victoriaville, QC, CA if no city is detected.
     """
-    is_french = "/fr/emplois/" in url or "/emplois/" in url  # safe
+    is_french = "/fr/emplois/" in url or "/emplois/" in url
     text_low = (page_text or "").lower()
     url_low = url.lower()
 
-    if is_french:
-        # Default QC city
-        city = "Victoriaville"
-        state = "QC"
-        country = "CA"
+    if not is_french:
+        return [("Livermore", "KY", "US")]
 
-        # Override if St-Marc is referenced
-        if "st-marc" in url_low or "st-marc" in text_low or "st marc" in text_low:
-            city = "St-Marc-des-Carrières"
-        return city, state, country
+    # Check all known QC locations against both URL and page text
+    found: List[Tuple[str, str, str]] = []
+    seen_cities: set = set()
 
-    # Default US job location
-    return "Livermore", "KY", "US"
+    combined = url_low + " " + text_low
+
+    for keyword, city_name in QC_LOCATIONS:
+        if keyword in combined and city_name not in seen_cities:
+            found.append((city_name, "QC", "CA"))
+            seen_cities.add(city_name)
+
+    # Fallback: default to Victoriaville if nothing matched
+    if not found:
+        found.append(("Victoriaville", "QC", "CA"))
+
+    return found
 
 
 def extract_title_and_description(html: str) -> Tuple[str, str]:
     soup = BeautifulSoup(html, "html.parser")
 
-    # Title: prefer <h1>
     h1 = soup.find("h1")
     title = h1.get_text(" ", strip=True) if h1 else ""
     if not title:
-        # fallback: <title>
         t = soup.find("title")
         title = t.get_text(" ", strip=True) if t else "Machitech Job"
 
-    # Description: try common containers, else fall back to article/body text
     container = soup.select_one(
         ".job-description, .hhs-job-description, .job_posting, .body-container, article, main"
     )
@@ -285,33 +277,67 @@ def extract_title_and_description(html: str) -> Tuple[str, str]:
     return title.strip() or "Machitech Job", raw_desc.strip()
 
 
-def make_partner_job_id(url: str) -> str:
-    # Use slug. If trailing slash, drop it.
+def make_partner_job_id(url: str, city: str = "") -> str:
+    """
+    Build a unique partnerJobId from the URL slug + city suffix.
+    This ensures that when the same job is duplicated across locations,
+    each entry has a distinct ID (LinkedIn uses this as the unique key).
+
+    Examples:
+      soudeur-victoriaville  →  soudeur-victoriaville
+      soudeur-victoriaville  →  soudeur-st-marc-des-carrieres
+    """
     path = urlparse(url).path.rstrip("/")
     slug = path.split("/")[-1] if path else "machitech-job"
-    return slug or "machitech-job"
+    slug = slug or "machitech-job"
+
+    if city:
+        # Normalize city to a URL-safe suffix: lowercase, spaces/accents → hyphens
+        city_slug = city.lower()
+        city_slug = re.sub(r"[àáâãäå]", "a", city_slug)
+        city_slug = re.sub(r"[èéêë]", "e", city_slug)
+        city_slug = re.sub(r"[ìíîï]", "i", city_slug)
+        city_slug = re.sub(r"[òóôõö]", "o", city_slug)
+        city_slug = re.sub(r"[ùúûü]", "u", city_slug)
+        city_slug = re.sub(r"[ç]", "c", city_slug)
+        city_slug = re.sub(r"[^a-z0-9]+", "-", city_slug).strip("-")
+        return f"{slug}-{city_slug}"
+
+    return slug
 
 
-def scrape_job(url: str, timeout: int, retries: int, sleep_s: float, verbose: bool) -> JobRecord:
+def scrape_job(url: str, timeout: int, retries: int, sleep_s: float, verbose: bool) -> List[JobRecord]:
+    """
+    Scrape a single job page and return one JobRecord per detected location.
+    If the page mentions two cities (e.g. Victoriaville + St-Marc), two records
+    are returned with unique partnerJobIds so LinkedIn creates two separate postings.
+    """
     r = request_with_retries(url, timeout=timeout, retries=retries, sleep_s=sleep_s, verbose=verbose)
 
     title, raw_desc = extract_title_and_description(r.text)
     desc = clean_description(raw_desc)
 
-    # Location inference uses both URL + page text
-    city, state, country = infer_location(url, raw_desc)
+    locations = infer_locations(url, raw_desc)
 
-    return JobRecord(
-        title=title,
-        partner_job_id=make_partner_job_id(url),
-        apply_url=url,
-        company=PUBLISHER,
-        description=desc if desc else "See website for details.",
-        city=city,
-        state=state,
-        country=country,
-        jobtype=normalize_jobtype("FULL_TIME"),
-    )
+    records: List[JobRecord] = []
+    for city, state, country in locations:
+        records.append(JobRecord(
+            title=title,
+            partner_job_id=make_partner_job_id(url, city),
+            apply_url=url,
+            company=PUBLISHER,
+            description=desc if desc else "See website for details.",
+            city=city,
+            state=state,
+            country=country,
+            jobtype=normalize_jobtype("FULL_TIME"),
+        ))
+
+    if verbose and len(records) > 1:
+        cities = ", ".join(r.city for r in records)
+        print(f"[info] duplicated '{title}' → {len(records)} locations: {cities}", file=sys.stderr)
+
+    return records
 
 
 # ----------------------------
@@ -389,7 +415,9 @@ def main() -> int:
         if args.verbose:
             print(f"[info] ({i}/{len(urls)}) scraping {url}", file=sys.stderr)
         try:
-            jobs.append(scrape_job(url, timeout=args.timeout, retries=args.retries, sleep_s=args.sleep, verbose=args.verbose))
+            # scrape_job now returns a list — one record per location
+            records = scrape_job(url, timeout=args.timeout, retries=args.retries, sleep_s=args.sleep, verbose=args.verbose)
+            jobs.extend(records)
         except Exception as e:
             print(f"[error] skipping {url}: {e}", file=sys.stderr)
 
@@ -405,14 +433,10 @@ def main() -> int:
     )
 
     if args.verbose:
-        print(f"[info] wrote {len(jobs)} jobs to {args.out}", file=sys.stderr)
+        print(f"[info] wrote {len(jobs)} job entries to {args.out}", file=sys.stderr)
 
     return 0
 
 
 if __name__ == "__main__":
     raise SystemExit(main())
-
-
-
-
