@@ -98,6 +98,43 @@ CE RÔLE EST POUR MOI SI JE SUIS...
     <posterEmail><![CDATA[hr@machitech.com]]></posterEmail>
   </job>
   <job>
+    <title><![CDATA[Manoeuvre]]></title>
+    <partnerJobId><![CDATA[manoeuvre]]></partnerJobId>
+    <applyUrl><![CDATA[https://machitech.com/fr/emplois/manoeuvre]]></applyUrl>
+    <company><![CDATA[Machitech]]></company>
+    <description><![CDATA[Manoeuvre
+
+DESCRIPTION DU POSTE
+La personne occupant le poste de manoeuvre assure la fluidité de la production et de la logistique en manipulant divers outils de transformation et en opérant des équipements de levage. Le rôle consiste à préparer les commandes, à gérer la réception et l'expédition de la marchandise ainsi qu'à maintenir un environnement de travail sécuritaire et ordonné pour garantir l'efficacité des opérations quotidiennes.
+
+RESPONSABILITÉS
+- Maintenir un environnement de travail propre, ordonné et sécuritaire
+- Manipuler divers outils de transformation (scier, couper, percer, etc.)
+- Aider à la réception et l’expédition de marchandise
+- Préparer les commandes et remplir la documentation associée
+- Effectuer la rotation de la marchandise
+- Aider aux chargements et aux déchargements des transporteurs
+- Déplacer du matériel à l’aide d’un chariot élévateur et d’un pont roulant
+- Déneiger les entrées durant la saison hivernale
+- Respecter les consignes en matière de santé et sécurité
+- Effectuer toutes autres tâches connexes
+
+EXIGENCES
+- Expérience avec divers outils de transformation
+- Expérience dans un milieu industriel (un atout)
+- Expérience de conduite d’un chariot élévateur
+- Permis de conduire (obligatoire)
+
+CE RÔLE EST POUR MOI SI JE SUIS...
+
+... habile pour transformer des matériaux et opérer des équipements de levage comme des chariots élévateurs ou des ponts roulants. Je suis également une personne polyvalente et rigoureuse qui accorde une importance primordiale à la propreté des lieux ainsi qu'au respect strict des normes de santé et sécurité au travail.]]></description>
+    <city><![CDATA[Victoriaville]]></city>
+    <state><![CDATA[QC]]></state>
+    <country><![CDATA[CA]]></country>
+    <jobtype><![CDATA[FULL_TIME]]></jobtype>
+    <posterEmail><![CDATA[hr@machitech.com]]></posterEmail>
+  </job>
+  <job>
     <title><![CDATA[Technicien(ne) laser]]></title>
     <partnerJobId><![CDATA[technicien-laser]]></partnerJobId>
     <applyUrl><![CDATA[https://machitech.com/fr/emplois/technicien-laser]]></applyUrl>
@@ -616,43 +653,6 @@ THIS ROLE IS FOR ME IF I AM...
     <posterEmail><![CDATA[hr@machitech.com]]></posterEmail>
   </job>
   <job>
-    <title><![CDATA[Manoeuvre]]></title>
-    <partnerJobId><![CDATA[manoeuvre]]></partnerJobId>
-    <applyUrl><![CDATA[https://machitech.com/fr/emplois/manoeuvre]]></applyUrl>
-    <company><![CDATA[Machitech]]></company>
-    <description><![CDATA[Manoeuvre
-
-DESCRIPTION DU POSTE
-La personne occupant le poste de manoeuvre assure la fluidité de la production et de la logistique en manipulant divers outils de transformation et en opérant des équipements de levage. Le rôle consiste à préparer les commandes, à gérer la réception et l'expédition de la marchandise ainsi qu'à maintenir un environnement de travail sécuritaire et ordonné pour garantir l'efficacité des opérations quotidiennes.
-
-RESPONSABILITÉS
-- Maintenir un environnement de travail propre, ordonné et sécuritaire
-- Manipuler divers outils de transformation (scier, couper, percer, etc.)
-- Aider à la réception et l’expédition de marchandise
-- Préparer les commandes et remplir la documentation associée
-- Effectuer la rotation de la marchandise
-- Aider aux chargements et aux déchargements des transporteurs
-- Déplacer du matériel à l’aide d’un chariot élévateur et d’un pont roulant
-- Déneiger les entrées durant la saison hivernale
-- Respecter les consignes en matière de santé et sécurité
-- Effectuer toutes autres tâches connexes
-
-EXIGENCES
-- Expérience avec divers outils de transformation
-- Expérience dans un milieu industriel (un atout)
-- Expérience de conduite d’un chariot élévateur
-- Permis de conduire (obligatoire)
-
-CE RÔLE EST POUR MOI SI JE SUIS...
-
-... habile pour transformer des matériaux et opérer des équipements de levage comme des chariots élévateurs ou des ponts roulants. Je suis également une personne polyvalente et rigoureuse qui accorde une importance primordiale à la propreté des lieux ainsi qu'au respect strict des normes de santé et sécurité au travail.]]></description>
-    <city><![CDATA[St-Marc-des-Carrières]]></city>
-    <state><![CDATA[QC]]></state>
-    <country><![CDATA[CA]]></country>
-    <jobtype><![CDATA[FULL_TIME]]></jobtype>
-    <posterEmail><![CDATA[hr@machitech.com]]></posterEmail>
-  </job>
-  <job>
     <title><![CDATA[Industrial Mechanic]]></title>
     <partnerJobId><![CDATA[industrial-mechanic]]></partnerJobId>
     <applyUrl><![CDATA[https://machitech.com/jobs/industrial-mechanic]]></applyUrl>
@@ -681,6 +681,63 @@ I am a meticulous, energetic team player who thrives on solving mechanical chall
     <city><![CDATA[Livermore]]></city>
     <state><![CDATA[KY]]></state>
     <country><![CDATA[US]]></country>
+    <jobtype><![CDATA[FULL_TIME]]></jobtype>
+    <posterEmail><![CDATA[hr@machitech.com]]></posterEmail>
+  </job>
+  <job>
+    <title><![CDATA[Technicien(ne) à la paie et à la comptabilité]]></title>
+    <partnerJobId><![CDATA[technicien-a-la-paie-et-a-la-comptabilite]]></partnerJobId>
+    <applyUrl><![CDATA[https://machitech.com/fr/emplois/technicien-a-la-paie-et-a-la-comptabilite]]></applyUrl>
+    <company><![CDATA[Machitech]]></company>
+    <description><![CDATA[Technicien(ne) à la paie et à la comptabilité
+
+DESCRIPTION DU POSTE
+En étroite collaboration avec le VP Finances et le Service de ressources humaines, le
+ou la
+technicien
+(
+ne
+)
+à la paie et à la comptabilité voit au traitement de la paie et aux avantages sociaux conformément aux lois et normes canadiennes et américaines en vigueur, et ce,
+aux
+deux
+(2)
+semaines. De plus, il
+ou elle
+participe à l’ensemble des activités du cycle comptable en collaboration avec l
+’
+équipe de la comptabilité.
+
+RESPONSABILITÉS
+- Traiter la paie et les avantages sociaux (assurances, régimes de retraite, congés payés) pour les employés canadiens et américains à tous les deux (2) semaines.
+- Collaborer avec les équipes RH pour la gestion des irrégularités (intégration, départ, modifications, etc.)
+- Effectuer des suivis avec les directeurs de département concernant les absences et les vacances.
+- Effectuer les analyses relatives à la fin de l’année fiscale en lien avec le traitement de la paie pour la vérification et l’émission des relevés fiscaux.
+- S’assurer de la conformité avec la législation fiscale et sociale chacune des provinces, des états et des pays.
+- Préparer et vérifier les rapports de paie, les relevés d’emploi, les différentes cotisations et les déductions fiscales conformément à la législation en vigueur et soumettre les remises s’y rattachant.
+- Participer à l’améliorations aux processus de paie et comptabilité, tout en assurant la confidentialité des données.
+- Effectuer les paiements électroniques gouvernementaux et les écritures correspondantes.
+- Comprendre et interpréter les normes du travail ainsi que les conditions de travail établies par l’entreprise.
+- Participer aux opérations comptables quotidiennes : enregistrement des transactions, rapprochements bancaires et soutien à la préparation des rapports financiers.
+- Participer à l’ensemble des activités du cycle complet comptable en collaboration avec les autres membres de l’équipe.
+
+EXIGENCES
+- DEC en comptabilité ou expérience équivalente
+- Maîtrise des logiciels de paie et comptabilité (ex. ADP, QuickBooks, Nethris).
+- Expérience en paie et comptabilité au Canada et/ou aux États-Unis (un atout)
+- Expérience avec la gestion des assurances collectives, REER, RBDP et 401 (k) (un atout)
+- Maîtrise de la suite office
+- Niveau d’aisance élevée avec les logiciels comptables
+- Connaissance des lois fiscales et sociales canadiennes et américaines.
+- Connaissance des exigences dans la production des remises et des rapports gouvernementaux.
+- Excellentes habiletés de communication en français et en anglais, tant à l’oral qu’à l’écrit. La connaissance de l’anglais est requise considérant les échanges avec différentes parties prenantes hors Québec.
+
+CE RÔLE EST POUR MOI SI JE SUIS...
+
+... une personne d'une rigueur exemplaire capable de jongler avec la complexité des normes et exigences fiscales canadiennes et américaines. Vous excellerez dans ce rôle si vous maîtrisez le cycle complet de la paie et de la comptabilité tout en ayant un souci constant pour la confidentialité et l'amélioration des processus.]]></description>
+    <city><![CDATA[St-Marc-des-Carrières]]></city>
+    <state><![CDATA[QC]]></state>
+    <country><![CDATA[CA]]></country>
     <jobtype><![CDATA[FULL_TIME]]></jobtype>
     <posterEmail><![CDATA[hr@machitech.com]]></posterEmail>
   </job>
@@ -759,63 +816,6 @@ CLIQUEZ POUR APPLIQUER]]></description>
     <posterEmail><![CDATA[hr@machitech.com]]></posterEmail>
   </job>
   <job>
-    <title><![CDATA[Technicien(ne) à la paie et à la comptabilité]]></title>
-    <partnerJobId><![CDATA[technicien-a-la-paie-et-a-la-comptabilite]]></partnerJobId>
-    <applyUrl><![CDATA[https://machitech.com/fr/emplois/technicien-a-la-paie-et-a-la-comptabilite]]></applyUrl>
-    <company><![CDATA[Machitech]]></company>
-    <description><![CDATA[Technicien(ne) à la paie et à la comptabilité
-
-DESCRIPTION DU POSTE
-En étroite collaboration avec le VP Finances et le Service de ressources humaines, le
-ou la
-technicien
-(
-ne
-)
-à la paie et à la comptabilité voit au traitement de la paie et aux avantages sociaux conformément aux lois et normes canadiennes et américaines en vigueur, et ce,
-aux
-deux
-(2)
-semaines. De plus, il
-ou elle
-participe à l’ensemble des activités du cycle comptable en collaboration avec l
-’
-équipe de la comptabilité.
-
-RESPONSABILITÉS
-- Traiter la paie et les avantages sociaux (assurances, régimes de retraite, congés payés) pour les employés canadiens et américains à tous les deux (2) semaines.
-- Collaborer avec les équipes RH pour la gestion des irrégularités (intégration, départ, modifications, etc.)
-- Effectuer des suivis avec les directeurs de département concernant les absences et les vacances.
-- Effectuer les analyses relatives à la fin de l’année fiscale en lien avec le traitement de la paie pour la vérification et l’émission des relevés fiscaux.
-- S’assurer de la conformité avec la législation fiscale et sociale chacune des provinces, des états et des pays.
-- Préparer et vérifier les rapports de paie, les relevés d’emploi, les différentes cotisations et les déductions fiscales conformément à la législation en vigueur et soumettre les remises s’y rattachant.
-- Participer à l’améliorations aux processus de paie et comptabilité, tout en assurant la confidentialité des données.
-- Effectuer les paiements électroniques gouvernementaux et les écritures correspondantes.
-- Comprendre et interpréter les normes du travail ainsi que les conditions de travail établies par l’entreprise.
-- Participer aux opérations comptables quotidiennes : enregistrement des transactions, rapprochements bancaires et soutien à la préparation des rapports financiers.
-- Participer à l’ensemble des activités du cycle complet comptable en collaboration avec les autres membres de l’équipe.
-
-EXIGENCES
-- DEC en comptabilité ou expérience équivalente
-- Maîtrise des logiciels de paie et comptabilité (ex. ADP, QuickBooks, Nethris).
-- Expérience en paie et comptabilité au Canada et/ou aux États-Unis (un atout)
-- Expérience avec la gestion des assurances collectives, REER, RBDP et 401 (k) (un atout)
-- Maîtrise de la suite office
-- Niveau d’aisance élevée avec les logiciels comptables
-- Connaissance des lois fiscales et sociales canadiennes et américaines.
-- Connaissance des exigences dans la production des remises et des rapports gouvernementaux.
-- Excellentes habiletés de communication en français et en anglais, tant à l’oral qu’à l’écrit. La connaissance de l’anglais est requise considérant les échanges avec différentes parties prenantes hors Québec.
-
-CE RÔLE EST POUR MOI SI JE SUIS...
-
-... une personne d'une rigueur exemplaire capable de jongler avec la complexité des normes et exigences fiscales canadiennes et américaines. Vous excellerez dans ce rôle si vous maîtrisez le cycle complet de la paie et de la comptabilité tout en ayant un souci constant pour la confidentialité et l'amélioration des processus.]]></description>
-    <city><![CDATA[St-Marc-des-Carrières]]></city>
-    <state><![CDATA[QC]]></state>
-    <country><![CDATA[CA]]></country>
-    <jobtype><![CDATA[FULL_TIME]]></jobtype>
-    <posterEmail><![CDATA[hr@machitech.com]]></posterEmail>
-  </job>
-  <job>
     <title><![CDATA[Welder]]></title>
     <partnerJobId><![CDATA[welder]]></partnerJobId>
     <applyUrl><![CDATA[https://machitech.com/jobs/welder]]></applyUrl>
@@ -850,49 +850,6 @@ THIS ROLE IS FOR ME IF I AM...
     <city><![CDATA[Livermore]]></city>
     <state><![CDATA[KY]]></state>
     <country><![CDATA[US]]></country>
-    <jobtype><![CDATA[FULL_TIME]]></jobtype>
-    <posterEmail><![CDATA[hr@machitech.com]]></posterEmail>
-  </job>
-  <job>
-    <title><![CDATA[Programmeur(euse) analyste]]></title>
-    <partnerJobId><![CDATA[programmeur-analyste]]></partnerJobId>
-    <applyUrl><![CDATA[https://machitech.com/fr/emplois/programmeur-analyste]]></applyUrl>
-    <company><![CDATA[Machitech]]></company>
-    <description><![CDATA[Programmeur(euse) analyste
-
-DESCRIPTION DU POSTE
-La personne occupant le poste de programmeur(euse) analyste chez Machitech développe et perfectionne des applications robustes en C#.net tout en collaborant avec l’équipe pour intégrer des fonctionnalités innovantes. Son rôle consiste à optimiser les bases de données MS SQL Server, à assurer la stabilité des logiciels par des tests rigoureux et à évoluer dans un environnement Agile pour garantir des standards de performance et de fiabilité élevés.
-
-RESPONSABILITÉS
-- Développer et perfectionner des applications en C#.net.
-- Utiliser les meilleures techniques de programmation pour assurer un environnement stable et performant.
-- Collaborer avec l’équipe pour améliorer nos logiciels et intégrer de nouvelles fonctionnalités.
-- Gérer et optimiser les bases de données sous MS SQL Server.
-- Utiliser Git pour le versionnement du code.
-- Effectuer des tests, optimiser et déboguer les applications afin d’en garantir la fiabilité et l’efficacité.
-- Contribuer au développement et à l’optimisation des interfaces utilisateurs.
-- Travailler selon les principes Agile pour une gestion efficace des projets.
-- Respecter les standards, normes et procédures en vigueur pour assurer la qualité des logiciels et services informatiques.
-- Effectuer toute autre tâche en lien avec le poste.
-
-EXIGENCES
-- Études en informatique, en programmation ou en génie logiciel
-- Expérience dans un poste similaire (un atout ).
-- Maîtriser les langages de programmation C#.NET et Python.
-- Capable de créer des interfaces WPF ou Windows form.
-- Connaissance des systèmes de contrôle pour équipements CNC / robotique (un atout).
-- Connaître les bases de données et leurs systèmes de gestion (My SQL).
-- Expérience avec d’autres technologies front-end/back-end.
-- Connaissance des architectures logicielles.
-- Expérience en développement Agile
-- Connaissance des normes et standards de développement.
-
-CE RÔLE EST POUR MOI SI JE SUIS...
-
-... un(e) passionné(e) de programmation C#.net qui carbure à la résolution de problèmes complexes et à l'optimisation de bases de données. Je suis un(e) collaborateur(trice) rigoureux(euse) qui maîtrise les environnements Agile et Git, et je retire une grande fierté à livrer un code propre, performant et parfaitement adapté aux besoins des utilisateurs.]]></description>
-    <city><![CDATA[St-Marc-des-Carrières]]></city>
-    <state><![CDATA[QC]]></state>
-    <country><![CDATA[CA]]></country>
     <jobtype><![CDATA[FULL_TIME]]></jobtype>
     <posterEmail><![CDATA[hr@machitech.com]]></posterEmail>
   </job>
