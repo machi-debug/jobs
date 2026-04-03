@@ -44,7 +44,7 @@ REMOVE_PHRASES = [
 
 # Lines like "Livermore, Kentucky" / "Victoriaville, Quebec" / "St-Marc-des-Carrières, Quebec"
 LOCATION_LINE_RE = re.compile(
-    r"^\s*[A-Za-zÀ-ÿ0-9\-\s''()./]+,\s*(kentucky|quebec|québec|canada|usa|united states|é-u|e-u)\s*$",
+    r"^\s*[A-Za-zÀ-ÿ0-9\-\s''()./]+,\s*(kentucky|quebec|québec|canada|usa|united states|é-u|e-u|florida|new brunswick|nouveau-brunswick)\s*$",
     re.IGNORECASE,
 )
 
@@ -58,8 +58,17 @@ QC_LOCATIONS = [
     ("st-marc", "St-Marc-des-Carrières"),
     ("st marc", "St-Marc-des-Carrières"),
     ("victoriaville", "Victoriaville"),
+    ("québec", "Québec"),
+    ("quebec", "Québec"),
 ]
 
+# Known EN US and CA locations — extend this list as needed
+US_LOCATIONS = [
+    ("livermore", "Livermore", "KY", "US"),
+    ("deerfield", "Deerfield Beach", "FL", "US"),
+    ("deerfield beach", "Deerfield Beach", "FL", "US"),
+    ("edmundston", "Edmundston", "NB", "CA"),
+]
 
 def clean_description(raw: str) -> str:
     if not raw:
@@ -223,38 +232,31 @@ def get_job_urls_from_sitemap(sitemap_url: str, timeout: int, retries: int, slee
 
 
 def infer_locations(url: str, page_text: str) -> List[Tuple[str, str, str]]:
-    """
-    Returns a list of (city, state, country) tuples.
-
-    - English /jobs/ → always single location: Livermore, KY, US
-    - French /fr/emplois/ → detect ALL QC cities mentioned in the page text or URL.
-      If multiple QC cities are found, return one tuple per city so the caller
-      can create a separate LinkedIn job posting for each location.
-      Falls back to Victoriaville, QC, CA if no city is detected.
-    """
     is_french = "/fr/emplois/" in url or "/emplois/" in url
     text_low = (page_text or "").lower()
     url_low = url.lower()
-
-    if not is_french:
-        return [("Livermore", "KY", "US")]
-
-    # Check all known QC locations against both URL and page text
-    found: List[Tuple[str, str, str]] = []
-    seen_cities: set = set()
-
     combined = url_low + " " + text_low
 
-    for keyword, city_name in QC_LOCATIONS:
-        if keyword in combined and city_name not in seen_cities:
-            found.append((city_name, "QC", "CA"))
-            seen_cities.add(city_name)
-
-    # Fallback: default to Victoriaville if nothing matched
-    if not found:
-        found.append(("Victoriaville", "QC", "CA"))
-
-    return found
+    if is_french:
+        found: List[Tuple[str, str, str]] = []
+        seen_cities: set = set()
+        for keyword, city_name in QC_LOCATIONS:
+            if keyword in combined and city_name not in seen_cities:
+                found.append((city_name, "QC", "CA"))
+                seen_cities.add(city_name)
+        if not found:
+            found.append(("Victoriaville", "QC", "CA"))
+        return found
+    else:
+        found = []
+        seen_cities = set()
+        for keyword, city_name, state, country in US_LOCATIONS:
+            if keyword in combined and city_name not in seen_cities:
+                found.append((city_name, state, country))
+                seen_cities.add(city_name)
+        if not found:
+            found.append(("Livermore", "KY", "US"))
+        return found
 
 
 def extract_title_and_description(html: str) -> Tuple[str, str]:
