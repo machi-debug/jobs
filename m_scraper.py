@@ -58,8 +58,6 @@ QC_LOCATIONS = [
     ("st-marc", "St-Marc-des-Carrières"),
     ("st marc", "St-Marc-des-Carrières"),
     ("victoriaville", "Victoriaville"),
-    ("québec", "Québec"),
-    ("quebec", "Québec"),
 ]
 
 # Known EN US and CA locations — extend this list as needed
@@ -244,6 +242,15 @@ def infer_locations(url: str, page_text: str) -> List[Tuple[str, str, str]]:
             if keyword in combined and city_name not in seen_cities:
                 found.append((city_name, "QC", "CA"))
                 seen_cities.add(city_name)
+
+        # Check for Québec CITY — strip province references first
+        # Remove patterns like "Victoriaville, Québec" or "St-Marc-des-Carrières, Quebec"
+        cleaned = re.sub(r",\s*qu[ée]bec", "", combined, flags=re.IGNORECASE)
+        if re.search(r"\bqu[ée]bec\b", cleaned, re.IGNORECASE):
+            if "Québec" not in seen_cities:
+                found.append(("Québec", "QC", "CA"))
+                seen_cities.add("Québec")
+
         if not found:
             found.append(("Victoriaville", "QC", "CA"))
         return found
@@ -257,7 +264,6 @@ def infer_locations(url: str, page_text: str) -> List[Tuple[str, str, str]]:
         if not found:
             found.append(("Livermore", "KY", "US"))
         return found
-
 
 def extract_title_and_description(html: str) -> Tuple[str, str]:
     soup = BeautifulSoup(html, "html.parser")
