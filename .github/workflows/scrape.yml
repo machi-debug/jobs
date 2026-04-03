@@ -1,7 +1,7 @@
 name: MScraper
 on:
   schedule:
-    - cron: '0 6 12 18 *' # Runs at 2am, 8am and 2pm EDT
+    - cron: '0 6,12,18 * * *' # Runs at 2am, 8am and 2pm EDT (which is 6, 12, 18 UTC)
   workflow_dispatch: # Allows you to run it manually
 
 jobs:
