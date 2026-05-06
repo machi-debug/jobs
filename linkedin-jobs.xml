@@ -190,49 +190,6 @@ THIS ROLE IS FOR ME IF I AM...
     <posterEmail><![CDATA[hr@machitech.com]]></posterEmail>
   </job>
   <job>
-    <title><![CDATA[Buyer]]></title>
-    <partnerJobId><![CDATA[buyer-livermore]]></partnerJobId>
-    <applyUrl><![CDATA[https://machitech.com/jobs/buyer]]></applyUrl>
-    <company><![CDATA[Machitech]]></company>
-    <description><![CDATA[Buyer
-
-JOB DESCRIPTION
-Machitech is seeking a Buyer to support its procurement activities in a growing manufacturing environment in our Kentucky plant. Reporting to the Director of International Purchasing, the successful candidate will assist with the day-to-day management of purchasing activities, material flow and production support. This position is well suited for a structured and detail-oriented individual who is eager to apply their procurement skills in a hands-on and dynamic environment.
-
-RESPONSIBILITIES
-- Create, issue, and follow up on purchase orders
-- Monitor suppliers, lead times, order confirmations, and deliveries
-- Compare pricing, lead times, and terms to optimize purchasing decisions
-- Collaborate with production, engineering, and planning teams to ensure material availability
-- Apply internal purchasing and procurement procedures
-- Maintain up-to-date supplier and item information in the ERP system
-- Receive, inspect, and record incoming goods
-- Store, label, and properly locate materials in the warehouse
-- Issue materials according to internal requests
-- Ensure cleanliness, organization, and safety of the storeroom
-- Perform any other related duties associated with the position.
-
-REQUIREMENTS
-- Experience in a similar Buyer, Purchasing, or Storekeeper role
-- Comfortable using an ERP system and Microsoft Office 365
-- Experience in a manufacturing, OEM, or distribution environment (asset)
-- Knowledge of mechanical and electrical parts (asset)
-- Strong attention to detail and organizational skills
-- Ability to manage multiple priorities and inventory levels
-- Good communication skills and stress management
-- Autonomous, reliable, and responsible
-- Positive attitude and willingness to learn.
-
-THIS ROLE IS FOR ME IF I AM...
-
-... a procurement professional with hands-on experience managing the full purchasing cycle in a manufacturing environment. I bring solid supplier relationship management, PO oversight from requisition to receipt, and a disciplined approach to ERP data integrity. I work closely with operations, production planning, and warehouse teams to anticipate material needs, tighten lead times, and reduce supply disruptions before they hit the floor.]]></description>
-    <city><![CDATA[Livermore]]></city>
-    <state><![CDATA[KY]]></state>
-    <country><![CDATA[US]]></country>
-    <jobtype><![CDATA[FULL_TIME]]></jobtype>
-    <posterEmail><![CDATA[hr@machitech.com]]></posterEmail>
-  </job>
-  <job>
     <title><![CDATA[Technicien(ne) plasma - Sur la route]]></title>
     <partnerJobId><![CDATA[technicien-plasma-st-marc-des-carrieres]]></partnerJobId>
     <applyUrl><![CDATA[https://machitech.com/fr/emplois/technicien-plasma]]></applyUrl>
@@ -1023,6 +980,44 @@ CE RÔLE EST POUR MOI SI JE SUIS...
     <city><![CDATA[St-Marc-des-Carrières]]></city>
     <state><![CDATA[QC]]></state>
     <country><![CDATA[CA]]></country>
+    <jobtype><![CDATA[FULL_TIME]]></jobtype>
+    <posterEmail><![CDATA[hr@machitech.com]]></posterEmail>
+  </job>
+  <job>
+    <title><![CDATA[Storekeeper]]></title>
+    <partnerJobId><![CDATA[buyer-livermore]]></partnerJobId>
+    <applyUrl><![CDATA[https://machitech.com/jobs/buyer]]></applyUrl>
+    <company><![CDATA[Machitech]]></company>
+    <description><![CDATA[Storekeeper
+
+JOB DESCRIPTION
+Machitech is seeking a Storekeeper to support the deployment of its manufacturing operations in our Kentucky plant. In a context of growth, the selected candidate will play a key role in managing day‑to‑day operations related to material flow, purchasing, and production support.
+This highly autonomous position is ideal for a detail‑oriented, versatile individual who is motivated to learn and capable of thriving in an independent work environment.
+
+RESPONSIBILITIES
+- Receive goods and ensure inventory is accurately updated in the ERP system
+- Manage shipments according to established priorities and deadlines
+- Perform operational purchasing to support production needs
+- Coordinate production readiness by ensuring material availability
+- Monitor project progress and operational priorities
+- Communicate effectively with internal stakeholders
+
+REQUIREMENTS
+- Experience in a similar role with comparable responsibilities
+- Comfortable using computer tools, including Outlook and an ERP system
+- Experience in environments such as: OEM, Building materials or retail
+- High level of accuracy and attention to detail
+- Good stress management skills
+- Strong communication abilities
+- High level of autonomy and sense of responsibility
+- Positive attitude and willingness to learn.
+
+THIS ROLE IS FOR ME IF I AM...
+
+... a hands-on storekeeper with experience running material flow in a manufacturing environment. I bring disciplined receiving and shipping, operational purchasing from PO to put-away, and a clean approach to ERP data integrity. I work shoulder to shoulder with production and planning to stage the right material before it's needed, and I'd rather flag a supply gap early than explain a line stoppage later.]]></description>
+    <city><![CDATA[Livermore]]></city>
+    <state><![CDATA[KY]]></state>
+    <country><![CDATA[US]]></country>
     <jobtype><![CDATA[FULL_TIME]]></jobtype>
     <posterEmail><![CDATA[hr@machitech.com]]></posterEmail>
   </job>
