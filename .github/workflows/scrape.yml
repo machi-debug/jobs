@@ -1,3 +1,11 @@
+name: MScraper
+on:
+  schedule:
+    - cron: '0 6,12,18 * * *' # 2am, 8am and 2pm EDT (6, 12, 18 UTC)
+  workflow_dispatch: # Allows manual runs
+
+jobs:
+  build:
     runs-on: ubuntu-latest
     permissions:
       contents: write
