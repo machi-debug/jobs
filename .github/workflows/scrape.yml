@@ -1,26 +1,19 @@
-name: MScraper
-on:
-  schedule:
-    - cron: '0 6,12,18 * * *' # Runs at 2am, 8am and 2pm EDT (which is 6, 12, 18 UTC)
-  workflow_dispatch: # Allows you to run it manually
-
-jobs:
-  build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.9'
+          python-version: '3.12'
       - name: Install dependencies
         run: pip install requests beautifulsoup4 lxml
       - name: Run Scraper
-        run: python m_scraper.py
+        run: python m_scraper.py --verbose
       - name: Commit and Push XML
         run: |
           git config --global user.name 'MBot'
           git config --global user.email 'bot@machitech.com'
           git add linkedin-jobs.xml
-          git commit -m "Auto-update job feed"
-          git push
+          git diff --cached --quiet || (git commit -m "Auto-update job feed" && git push)
