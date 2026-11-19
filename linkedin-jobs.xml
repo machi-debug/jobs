@@ -465,47 +465,6 @@ CE RÔLE EST POUR MOI SI JE SUIS...
     <posterEmail><![CDATA[hr@machitech.com]]></posterEmail>
   </job>
   <job>
-    <title><![CDATA[Directeur(trice) des technologies]]></title>
-    <partnerJobId><![CDATA[directeur-technologies-quebec]]></partnerJobId>
-    <applyUrl><![CDATA[https://machitech.com/fr/emplois/directeur-technologies]]></applyUrl>
-    <company><![CDATA[Machitech]]></company>
-    <description><![CDATA[Directeur(trice) des technologies
-Relevant du directeur général, vous dirigerez les activités technologiques en étroite collaboration avec les responsables de chaque secteur et leurs experts. Vous veillerez à la performance des équipes, à la fiabilité des opérations et au respect des engagements. Votre mandat sera principalement axé sur la gestion, le soutien aux responsables et le développement des équipes.
-Vous travaillerez également de concert avec le bureau de projets pour aligner les priorités et planifier la contribution des équipes aux initiatives créatrices de valeur pour Machitech.
-
-RESPONSABILITÉS
-- Accompagner, mobiliser et soutenir les responsables de l’automatisation, du développement interne et de l’infrastructure.
-- Établir les objectifs et les priorités en étroite collaboration avec les responsables de chaque secteur, planifier les ressources et assurer le suivi des engagements.
-- Développer l’autonomie des responsables et favoriser le partage des connaissances afin d’assurer la continuité des activités.
-- Assurer la gestion des talents : recrutement, coaching, développement et évaluation de la performance.
-- Superviser la disponibilité, la sécurité et la continuité des systèmes technologiques.
-- Encadrer la qualité, la livraison et la maintenance des solutions développées.
-- Gérer les budgets, les fournisseurs et les partenaires technologiques.
-- Agir comme ambassadeur des technologies auprès des autres départements et collaborer avec eux pour trouver des solutions adaptées à leurs besoins.
-- Instaurer des pratiques de gestion simples et efficaces qui soutiennent la croissance.
-- Maintenir une communication claire avec la direction sur l’avancement des priorités, les risques et les décisions à prendre.
-
-EXIGENCES
-- Baccalauréat en informatique, en génie, en gestion des technologies ou dans un domaine connexe. Toute combinaison de formation et d’expérience pertinente sera également considérée.
-- Une formation complémentaire en gestion ou en leadership constitue un atout.
-- Expérience démontrée en gestion d’équipes, notamment dans l’encadrement de gestionnaires ou de responsables techniques.
-- Bonne compréhension de l’infrastructure informatique, du développement logiciel et de l’automatisation permettant d’encadrer des spécialistes et de prendre des décisions éclairées.
-- Capacité à mobiliser ses équipes, à déléguer efficacement et à assurer l’atteinte des objectifs.
-- Habileté à communiquer les enjeux technologiques et à les relier aux besoins d’affaires.
-- Leadership rassembleur et écoute.
-- Courage managérial et jugement pragmatique.
-- Capacité à pivoter rapidement face aux imprévus et à ajuster les priorités tout en maintenant le cap sur les objectifs.
-
-CE RÔLE EST POUR MOI SI JE SUIS...
-
-... un(e) gestionnaire rassembleur(se) qui trouve sa motivation dans la réussite de ses équipes et dans le développement de leaders autonomes. Je suis un(e) professionnel(le) pragmatique qui comprend autant l’infrastructure que le développement et l’automatisation, et qui sait traduire les enjeux technologiques en solutions concrètes pour soutenir la croissance de l’entreprise.]]></description>
-    <city><![CDATA[Québec]]></city>
-    <state><![CDATA[QC]]></state>
-    <country><![CDATA[CA]]></country>
-    <jobtype><![CDATA[FULL_TIME]]></jobtype>
-    <posterEmail><![CDATA[hr@machitech.com]]></posterEmail>
-  </job>
-  <job>
     <title><![CDATA[Plasma Field Technician - On the Road]]></title>
     <partnerJobId><![CDATA[plasma-field-technician-livermore]]></partnerJobId>
     <applyUrl><![CDATA[https://machitech.com/jobs/plasma-field-technician]]></applyUrl>
@@ -955,6 +914,7 @@ THIS ROLE IS FOR ME IF I AM...
     <applyUrl><![CDATA[https://machitech.com/fr/emplois/technicien-developpement-amelioration-machines-cnc]]></applyUrl>
     <company><![CDATA[Machitech]]></company>
     <description><![CDATA[Technicien(ne) – Développement et amélioration de machines CNC
+St-Marc-des-Carrières
 
 DESCRIPTION DU POSTE
 Relevant du Chef de projet R&D, le technicien ou la technicienne en d
@@ -996,6 +956,7 @@ CE RÔLE EST POUR MOI SI JE SUIS...
     <applyUrl><![CDATA[https://machitech.com/fr/emplois/technicien-developpement-amelioration-machines-cnc]]></applyUrl>
     <company><![CDATA[Machitech]]></company>
     <description><![CDATA[Technicien(ne) – Développement et amélioration de machines CNC
+St-Marc-des-Carrières
 
 DESCRIPTION DU POSTE
 Relevant du Chef de projet R&D, le technicien ou la technicienne en d
@@ -1798,82 +1759,6 @@ CE RÔLE EST POUR MOI SI JE SUIS...
 
 ... un(e) professionnel(le) TI moderne et curieux(se) qui considère l’IA et l’automatisation comme des outils incontournables de mon métier. Je suis un(e) expert(e) polyvalent(e) qui n’hésite pas à mettre les mains dans la technique, du soutien de première ligne jusqu’aux enjeux N3, tout en guidant mon équipe et en contribuant à la planification des projets et des acquisitions.]]></description>
     <city><![CDATA[St-Marc-des-Carrières]]></city>
-    <state><![CDATA[QC]]></state>
-    <country><![CDATA[CA]]></country>
-    <jobtype><![CDATA[FULL_TIME]]></jobtype>
-    <posterEmail><![CDATA[hr@machitech.com]]></posterEmail>
-  </job>
-  <job>
-    <title><![CDATA[Responsable infrastructure TI]]></title>
-    <partnerJobId><![CDATA[responsable-infrastructure-ti-quebec]]></partnerJobId>
-    <applyUrl><![CDATA[https://machitech.com/fr/emplois/responsable-infrastructure-ti]]></applyUrl>
-    <company><![CDATA[Machitech]]></company>
-    <description><![CDATA[Responsable infrastructure TI
-Relevant du directeur technologique, vous prendrez en charge les opérations d’infrastructure TI en étroite collaboration avec l’équipe de soutien et les responsables des différents secteurs. Vous veillerez à la fiabilité, à la sécurité et à l’évolution des systèmes, ainsi qu’à la qualité du service aux utilisateurs. Votre mandat combinera l’administration des infrastructures, la coordination des demandes et l’accompagnement des techniciens, tout en demeurant directement impliqué dans les interventions techniques, du soutien de première ligne à la résolution de problèmes complexes.
-Vous contribuerez également à la planification des projets et des acquisitions TI selon les priorités de Machitech. L’amélioration des pratiques, l’automatisation et l’utilisation de l’intelligence artificielle dans la gestion des infrastructures feront partie intégrante de votre rôle.
-
-RESPONSABILITÉS
-- Administration des systèmes et infrastructures (N3)
-- Administrer, maintenir et faire évoluer les infrastructures serveurs, réseaux, stockage et virtualisation.
-- Assurer la disponibilité, la performance, la sécurité et la résilience des systèmes.
-- Diagnostiquer et résoudre les incidents techniques complexes.
-- Gérer les sauvegardes, les restaurations et participer aux plans de continuité et de reprise.
-- Participer aux projets d'architecture, de migration, de modernisation et d'automatisation.
-- Maintenir la documentation technique et les procédures opérationnelles.
-- Leadership technique et coordination
-- Assurer le leadership technique de l'équipe infrastructure et support TI.
-- Prendre en charge la coordination des demandes et des incidents : établir les priorités, répartir les interventions et assurer leur suivi jusqu'à la résolution.
-- Accompagner les techniciens N1/N2 dans leurs interventions et leur développement professionnel.
-- Favoriser le transfert de connaissances et l'amélioration des pratiques.
-- Participer à la gestion des ressources humaines : recrutement, intégration, formation et évaluation des besoins en compétences.
-- Coordonner certaines interventions avec les fournisseurs et les autres départements.
-- Gestion des équipements et fournisseurs
-- Effectuer les recherches techniques pour sélectionner les équipements et solutions appropriés.
-- Évaluer les différentes options selon les besoins, les coûts, la fiabilité et les standards de l'entreprise.
-- Préparer les recommandations d'achat et participer à la gestion des acquisitions TI.
-- Entretenir les relations techniques avec les fournisseurs et partenaires.
-- Participer à la planification des renouvellements et des investissements technologiques.
-- Intelligence artificielle et automatisation
-- L'intelligence artificielle fait partie intégrante de notre approche de gestion des infrastructures TI.
-- Utiliser les outils d'IA pour accélérer le diagnostic et la résolution des incidents.
-- Exploiter l'IA pour faciliter la création de scripts, l'automatisation et l'administration des systèmes.
-- Participer au développement de nouveaux processus d'exploitation assistés par l'IA.
-- Améliorer la documentation technique, les procédures et le partage des connaissances grâce à l'IA.
-- Identifier les occasions d'intégrer l'IA dans la supervision, la sécurité et la gestion proactive des infrastructures.
-- Utiliser ces technologies de façon responsable, en respectant les exigences de sécurité et de confidentialité.
-- Nous ne recherchons pas nécessairement un spécialiste du développement IA, mais plutôt
-- un administrateur moderne qui considère l'IA comme un outil incontournable de son métier
-- .
-- Environnement technologique
-- Systèmes :
-- Windows Server, Active Directory, environnements Linux.
-- Cloud et collaboration :
-- Microsoft 365, Entra ID, Exchange Online, SharePoint et Teams.
-- Virtualisation :
-- Proxmox VE, infrastructures de machines virtuelles.
-- Stockage et sauvegardes :
-- NAS/SAN, TrueNAS, Synology, Proxmox Backup Server et Acronis.
-- Réseaux et sécurité :
-- pare-feu, VPN, VLAN, routage, commutation et solutions de cybersécurité.
-- Gestion et supervision :
-- outils RMM, MDM, monitoring et centralisation des journaux.
-- Automatisation :
-- PowerShell, Bash, API, outils d'orchestration et intelligence artificielle.
-
-EXIGENCES
-- Minimum de 10 ans d'expérience pertinente en administration de systèmes et d'infrastructures TI.
-- Expérience démontrée dans la résolution de problèmes techniques avancés (N3).
-- Bonne compréhension des environnements Windows, Linux, réseaux et virtualisation.
-- Expérience en coordination technique ou intérêt marqué pour le leadership d'équipe.
-- Capacité à organiser les demandes, établir des priorités et assurer un suivi rigoureux.
-- Excellentes aptitudes de communication, de collaboration et de vulgarisation technique.
-- Intérêt concret pour l'intelligence artificielle et l'automatisation des opérations TI.
-- Excellentes habiletés de communication en français, tant à l’oral qu’à l’écrit et connaissance professionnel de l’anglais. La connaissance de l’anglais est requise considérant les échanges réguliers avec différentes parties prenantes à l’international.
-
-CE RÔLE EST POUR MOI SI JE SUIS...
-
-... un(e) professionnel(le) TI moderne et curieux(se) qui considère l’IA et l’automatisation comme des outils incontournables de mon métier. Je suis un(e) expert(e) polyvalent(e) qui n’hésite pas à mettre les mains dans la technique, du soutien de première ligne jusqu’aux enjeux N3, tout en guidant mon équipe et en contribuant à la planification des projets et des acquisitions.]]></description>
-    <city><![CDATA[Québec]]></city>
     <state><![CDATA[QC]]></state>
     <country><![CDATA[CA]]></country>
     <jobtype><![CDATA[FULL_TIME]]></jobtype>
