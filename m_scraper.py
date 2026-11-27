@@ -66,6 +66,10 @@ US_LOCATIONS = [
     ("deerfield", "Deerfield Beach", "FL", "US"),
     ("deerfield beach", "Deerfield Beach", "FL", "US"),
     ("edmundston", "Edmundston", "NB", "CA"),
+    ("houston", "Houston", "TX", "US"),
+    ("dallas", "Dallas", "TX", "US"),
+    ("new orleans", "New Orleans", "LA", "US"),
+    ("oklahoma city", "Oklahoma City", "OK", "US"),
 ]
 
 def clean_description(raw: str) -> str:
